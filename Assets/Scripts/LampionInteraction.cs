@@ -11,12 +11,6 @@ public class LampionInteraction : MonoBehaviour
     [SerializeField]
     private GameObject lampionOff;
 
-    // Start is called before the first frame update
-    void Start()
-    {
-
-    }
-
     // Update is called once per frame
     void Update()
     {
@@ -27,12 +21,14 @@ public class LampionInteraction : MonoBehaviour
                 lampionOn.SetActive(false);
                 lampionOff.SetActive(true);
                 isIgnite = !isIgnite;
+                LampionRidleHandler.DeactivateLampion(gameObject.name);
             }
             else
             {
                 lampionOn.SetActive(true);
                 lampionOff.SetActive(false);
                 isIgnite = !isIgnite;
+                LampionRidleHandler.ActivateLampion(gameObject.name);
             }
         }
     }
