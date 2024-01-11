@@ -12,8 +12,8 @@ public class GameLoop : MonoBehaviour
     private bool chestSuccess = false;
     private int ritualStepCompleted = 0;
     public bool AscendStateReached { get; private set; } = false;
-    private static GameLoop _instance;
 
+    private static GameLoop _instance;
     public static GameLoop Instance
     {
         get { return _instance; }
@@ -50,13 +50,20 @@ public class GameLoop : MonoBehaviour
             bellSuccess = true;
             ritualStepCompleted++;
             RitualValidation();
+            Debug.Log("Success");
         }
         else
         {
             if (bellSuccess == true && ritualStepCompleted > 0)
-            bellSuccess = false;
-            ritualStepCompleted--;
-            RitualValidation();
+            {
+                bellSuccess = false;
+                ritualStepCompleted--;
+                RitualValidation();
+            Debug.Log("Reset");
+
+            }
+            Debug.Log("Fail");
+
         }
     }
 
