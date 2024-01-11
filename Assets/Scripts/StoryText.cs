@@ -10,6 +10,7 @@ public class StoryText : MonoBehaviour
         {"Livre1_1", "A l'aube de la troisième journée, trois cavaliers provenant de la cité des trois lunes arrivèrent. " +
             "Chacun offrit une offrande à notre maître vénéré. Nous répétons ces offrandes par trois coups de cloches successifs." },
         {"Livre1_2", "Malheureusement, le guerrier de la pleine lune trahit la volonté de notre maître. Ainsi, un coup de moins retentira les soirs de lunes rondes." },
+        {"Cloche1", "La nuit est éclairée par une pleine lune d'une étrange clarté" },
 
         // Dans cette scene, le joueur devrait trouver quoi sacrifier au grand gourou. Les indices permettent de trouver quoi sacrifier
         {"Livre2", "Un sacrifice sacré, une offrande vénérée, a notre grand maître, devra être donnée." },
