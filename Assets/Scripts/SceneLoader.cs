@@ -7,10 +7,11 @@ public class SceneLoader : MonoBehaviour
 {
     [SerializeField] private string sceneName;
 
-    private void OnTriggerEnter(Collider other)
+    private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (other.gameObject.CompareTag("Player"))
+        if (collision.gameObject.CompareTag("Player"))
         {
+            Debug.Log("Loading scene " + sceneName);
             SceneManager.LoadScene(sceneName);
         }
     }
