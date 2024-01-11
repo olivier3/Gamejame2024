@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -29,6 +30,19 @@ public class BellInteraction : MonoBehaviour
         if (collision.gameObject.name == "Player")
         {
             inBellRange = false;
+            BellValidation();
+        }
+    }
+
+    private void BellValidation()
+    {
+        if (bellActivationCount == 3)
+        {
+            GameLoop.Instance.AcheiveBellInteraction(true);
+        }
+        else
+        {
+            GameLoop.Instance.AcheiveBellInteraction(false);
         }
     }
 }
