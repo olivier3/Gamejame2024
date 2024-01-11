@@ -28,10 +28,10 @@ public class LampionRidleHandler : MonoBehaviour
     {
         if (activeLampionList.Count == 2 && activeLampionList.Contains("LampionWest") && activeLampionList.Contains("LampionEast"))
         {
-            Debug.Log("Ritual done");
+            GameLoop.Instance.AcheiveLampionInteraction(true);
         }
         else{
-            Debug.Log("Ritual not correct");
+            GameLoop.Instance.AcheiveLampionInteraction(false);
         }
     }
 }

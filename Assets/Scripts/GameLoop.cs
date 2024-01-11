@@ -50,7 +50,6 @@ public class GameLoop : MonoBehaviour
             bellSuccess = true;
             ritualStepCompleted++;
             RitualValidation();
-            Debug.Log("Success");
         }
         else
         {
@@ -59,19 +58,31 @@ public class GameLoop : MonoBehaviour
                 bellSuccess = false;
                 ritualStepCompleted--;
                 RitualValidation();
-            Debug.Log("Reset");
-
             }
-            Debug.Log("Fail");
-
         }
     }
 
     public void AcheiveLampionInteraction(bool result)
     {
-        lampionSuccess = true;
-        ritualStepCompleted++;
-        RitualValidation();
+        if (result)
+        {
+            lampionSuccess = true;
+            ritualStepCompleted++;
+            RitualValidation();
+            Debug.Log("Success");
+        }
+        else
+        {
+            if (lampionSuccess == true && ritualStepCompleted > 0)
+            {
+                lampionSuccess = false;
+                ritualStepCompleted--;
+                RitualValidation();
+                Debug.Log("Achievement lost");
+            }
+            Debug.Log("Fail");
+        }
+        Debug.Log(ritualStepCompleted);
     }
 
     public void AcheivePriereInteraction()
