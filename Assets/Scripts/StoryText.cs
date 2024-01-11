@@ -12,34 +12,38 @@ public class StoryText : MonoBehaviour
 
         // Dans cette scene, le joueur devrait trouver quoi sacrifier au grand gourou. Les indices permettent de trouver quoi sacrifier
         {"Livre2", "Un sacrifice sacré, une offrande vénérée, a notre grand maître, devra être donnée." },
+        {"Sacrifice1", "Voulez-vous sacrifier cette tête de Mickey ?" },
+        {"Sacrifice2", "Voulez-vous sacrifier cette poupée ?" },
+        {"Sacrifice3", "Voulez-vous sacrifier ce Brocolli !?" },
+        {"Sacrifice4", "Voulez-vous sacrifier cette pauvre chèvre ?" },
         {"Discussion1_1", "Je me demande ce que je vais faire a cuisiner a notre maître vénéré ce soir, aurais-tu une idée ?" },
         {"Discussion1_2", "Hmmmm..... je verrais bien un BON GROS STEAK ! N'est-ce pas une bonne idée." },
         {"Discussion1_3", "Es-tu fou ? Notre grand maître est végétarien, il ne faudrait pas attiser sa colère." },
 
         // Dans cette scene, le joueur doit effectuer la bonne priere. Des dessins ou des artworks sur les murs pour trouver comment prier
-        {"PriereChoix1", "TODO" },
-        {"PriereChoix2", "TODO" },
-        {"PriereChoix3", "TODO" },
+        {"PriereChoix1", "Voulez-vous effectuer une danse nuptiale ?" },
+        {"PriereChoix2", "Voulez-vous rester immobile dans l'ombre ?" },
+        {"PriereChoix3", "Voulez-vous vous assoir pour méditer ?" },
 
         // Scene des lampions, le joueur va devoir allumer certains lampions.
         {"Lampions1", "TODO" },
         {"Livre3", "TODO" },
 
-        // Scene du mot de passe, la r�ponse est visible dans une autre salle, le message sera cod�
-        {"PassRoom1", "Quel est le premier enseignement de notre grand ma�tre ?" },
+        // Scene du mot de passe, la r�ponse est visible dans une autre salle, le message sera cod�(
+        {"PassRoom1", "Quel est le premier enseignement de notre grand maître ?" },
         {"PassChoix1", "Harmonie" },
         {"PassChoix2", "Barbie" },
         {"PassChoix3", "Pamplemousse" },
         {"PassChoix4", "Charbonnier" },
         {"PassRoom2", "Ouiiii, c'est la bonne réponse! Peut être ?" },
-        {"PostIt1", "Certains mots sont effac�s, mais on peut distinguer les mots \"Oub ie  as, l'ense gn me t est :  ar on  \"" },
+        {"PostIt1", "Certains mots sont effacés, mais on peut distinguer les mots \"Oub ie  as, l'ense gn me t est :  ar on  \"" },
         {"PostIt2", "BOB ! On m'a apprie que tu as 'ENCORE' oublié le mot de passe.... ca rime avec 'AEROPHAGIE'" },
 
 
         // Scene de la clef
         {"KeyRoom1", "Hey te voilà le nouveau ! Tiens, voilà ta clef personnelle. Fais en bon usage !" },
         {"KeyRoom2", "Nouvel objet obtenu : Clef personnelle. \n Vos initiales sont gravées dessus." },
-        {"KeyRoom3", "Vous avez utilisé la clef sur le vieux coffre. \n Nouvel objet obtenu: gros mottons de poussière." },
+        {"KeyRoom3", "Vous avez utilisé la clef sur le vieux coffre. \n Nouvel objet obtenu: Gros cristal brillant." },
         {"Livre4_1", "Dans l'ombre du culte, le pouvoir de la clé est loué,\nMais ne sois pas esclave de son éclat doré." },
         {"Livre4_2", "Car derrière chaque serrure, un destin est brodé,\nEt l'imprudence peut t'égarer dans l'obscurité." },
 
@@ -69,7 +73,7 @@ public class StoryText : MonoBehaviour
         "Absolon",
         "Adolphe",
         "Adrien",
-        "Aim�",
+        "Aimé",
         "Alain",
         "Alphonse",
         "Amaury",
