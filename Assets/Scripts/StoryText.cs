@@ -11,10 +11,10 @@ public class StoryText : MonoBehaviour
         {"Livre1_2", "Malheureusement, le guerrier de la pleine lune trahit la volonté de notre maître. Ainsi, un coup de moins retentira les soirs de lunes rondes." },
 
         // Dans cette scene, le joueur devrait trouver quoi sacrifier au grand gourou. Les indices permettent de trouver quoi sacrifier
-        {"Livre2", "TODO" },
-        {"Discussion1_1", "TODO" },
-        {"Discussion1_2", "TODO" },
-        {"Discussion1_3", "TODO" },
+        {"Livre2", "Un sacrifice sacré, une offrande vénérée, a notre grand maître, devra être donnée." },
+        {"Discussion1_1", "Je me demande ce que je vais faire a cuisiner a notre maître vénéré ce soir, aurais-tu une idée ?" },
+        {"Discussion1_2", "Hmmmm..... je verrais bien un BON GROS STEAK ! N'est-ce pas une bonne idée." },
+        {"Discussion1_3", "Es-tu fou ? Notre grand maître est végétarien, il ne faudrait pas attiser sa colère." },
 
         // Dans cette scene, le joueur doit effectuer la bonne priere. Des dessins ou des artworks sur les murs pour trouver comment prier
         {"PriereChoix1", "TODO" },
@@ -39,11 +39,9 @@ public class StoryText : MonoBehaviour
         // Scene de la clef
         {"KeyRoom1", "Hey te voilà le nouveau ! Tiens, voilà ta clef personnelle. Fais en bon usage !" },
         {"KeyRoom2", "Nouvel objet obtenu : Clef personnelle. \n Vos initiales sont gravées dessus." },
-        {"KeyRoom3", "Vous avez utilisé la clef sur le vieux coffre" },
-        {"Livre4_1", "TODO" },
-        {"Livre4_2", "TODO" },
-        {"Livre4_3", "TODO" },
-        {"Livre4_4", "TODO" },
+        {"KeyRoom3", "Vous avez utilisé la clef sur le vieux coffre. \n Nouvel objet obtenu: gros mottons de poussière." },
+        {"Livre4_1", "Dans l'ombre du culte, le pouvoir de la clé est loué,\nMais ne sois pas esclave de son éclat doré." },
+        {"Livre4_2", "Car derrière chaque serrure, un destin est brodé,\nEt l'imprudence peut t'égarer dans l'obscurité." },
 
         // Scene finale, qui va définir si nos choix sont bon.
         {"ManqueSacrifice", "TODO" },
@@ -56,8 +54,8 @@ public class StoryText : MonoBehaviour
         {"FinPriere", "TODO" },
         {"BonneFin", "TODO" },
 
-        // Textes g�n�riques
-        {"NouvellePartie", "Vous êtes une nouvelle recrue de la secte du [NOM DE LA SECTE], a vous de trouver un moyen de vous élever." },
+        // Textes génériques
+        {"NouvellePartie", "Vous êtes une nouvelle recrue de la secte du Culte de l'Acier, a vous de trouver un moyen de vous élever." },
 
     };
 
