@@ -69,7 +69,6 @@ public class GameLoop : MonoBehaviour
             lampionSuccess = true;
             ritualStepCompleted++;
             RitualValidation();
-            Debug.Log("Success");
         }
         else
         {
@@ -78,11 +77,8 @@ public class GameLoop : MonoBehaviour
                 lampionSuccess = false;
                 ritualStepCompleted--;
                 RitualValidation();
-                Debug.Log("Achievement lost");
             }
-            Debug.Log("Fail");
         }
-        Debug.Log(ritualStepCompleted);
     }
 
     public void AcheivePriereInteraction()
