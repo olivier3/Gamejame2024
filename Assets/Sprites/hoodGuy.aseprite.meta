@@ -126,7 +126,7 @@ ScriptedImporter:
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 67
+      x: 68
       y: 32
       width: 12
       height: 21
@@ -138,7 +138,7 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 67, y: 32}
+    uvTransform: {x: 68, y: 32}
   - name: hoodGuy_Frame_1
     originalName: 
     pivot: {x: 0.5, y: 0}
@@ -146,7 +146,7 @@ ScriptedImporter:
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 67
+      x: 68
       y: 61
       width: 12
       height: 21
@@ -158,7 +158,7 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 67, y: 61}
+    uvTransform: {x: 68, y: 61}
   - name: hoodGuy_Frame_2
     originalName: 
     pivot: {x: 0.5, y: 0}
@@ -166,8 +166,8 @@ ScriptedImporter:
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 25
-      y: 62
+      x: 47
+      y: 33
       width: 12
       height: 22
     spriteID: a2e686ec181a40c449973c19c8fc809a
@@ -178,7 +178,7 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 25, y: 62}
+    uvTransform: {x: 47, y: 33}
   - name: hoodGuy_Frame_3
     originalName: 
     pivot: {x: 0.53846157, y: 0}
@@ -187,7 +187,7 @@ ScriptedImporter:
     rect:
       serializedVersion: 2
       x: 4
-      y: 4
+      y: 41
       width: 13
       height: 22
     spriteID: c8085484c147e244aaf800a4cda532b1
@@ -198,7 +198,7 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 4, y: 4}
+    uvTransform: {x: 4, y: 41}
   - name: hoodGuy_Frame_4
     originalName: 
     pivot: {x: 0.53846157, y: 0}
@@ -207,7 +207,7 @@ ScriptedImporter:
     rect:
       serializedVersion: 2
       x: 4
-      y: 34
+      y: 101
       width: 13
       height: 21
     spriteID: d6216928849504f42a8104d43c5e0f39
@@ -218,18 +218,18 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 4, y: 34}
+    uvTransform: {x: 4, y: 101}
   - name: hoodGuy_Frame_5
     originalName: 
-    pivot: {x: 0.4615385, y: -0.05}
+    pivot: {x: 0.53846157, y: 0}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 25
-      y: 92
+      x: 4
+      y: 130
       width: 13
-      height: 20
+      height: 21
     spriteID: 0d7a77aa738356f4c887d03a57c1774d
     spriteBone: []
     spriteOutline: []
@@ -238,18 +238,18 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 25, y: 92}
+    uvTransform: {x: 4, y: 130}
   - name: hoodGuy_Frame_6
     originalName: 
-    pivot: {x: 0.4615385, y: -0.05}
+    pivot: {x: 0.53846157, y: 0}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 46
-      y: 4
+      x: 4
+      y: 71
       width: 13
-      height: 20
+      height: 22
     spriteID: b57c88ed89ea39340a2b4f417038dd57
     spriteBone: []
     spriteOutline: []
@@ -258,18 +258,18 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 46, y: 4}
+    uvTransform: {x: 4, y: 71}
   - name: hoodGuy_Frame_7
     originalName: 
-    pivot: {x: 0.4615385, y: -0.04761905}
+    pivot: {x: 0.4615385, y: -0.05}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 4
+      x: 47
       y: 63
       width: 13
-      height: 21
+      height: 20
     spriteID: afc2b6977d2da934d8182ea8a1b21bab
     spriteBone: []
     spriteOutline: []
@@ -278,16 +278,16 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 4, y: 63}
+    uvTransform: {x: 47, y: 63}
   - name: hoodGuy_Frame_8
     originalName: 
-    pivot: {x: 0.4615385, y: -0.04761905}
+    pivot: {x: 0.53846157, y: 0}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
       x: 4
-      y: 92
+      y: 159
       width: 13
       height: 21
     spriteID: a3d32712689935640bc1d083ce411604
@@ -298,18 +298,18 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 4, y: 92}
+    uvTransform: {x: 4, y: 159}
   - name: hoodGuy_Frame_9
     originalName: 
-    pivot: {x: 0.4615385, y: -0.05}
+    pivot: {x: 0.4615385, y: -0.04761905}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 46
-      y: 32
+      x: 4
+      y: 188
       width: 13
-      height: 20
+      height: 21
     spriteID: e0f983b81e2d3fe45a3b748fdf532d89
     spriteBone: []
     spriteOutline: []
@@ -318,7 +318,7 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 46, y: 32}
+    uvTransform: {x: 4, y: 188}
   - name: hoodGuy_Frame_10
     originalName: 
     pivot: {x: 0.4615385, y: -0.05}
@@ -326,8 +326,8 @@ ScriptedImporter:
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 46
-      y: 60
+      x: 47
+      y: 91
       width: 13
       height: 20
     spriteID: 1ac408977459d4447bc0eb795a87b58a
@@ -338,18 +338,18 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 46, y: 60}
+    uvTransform: {x: 47, y: 91}
   - name: hoodGuy_Frame_11
     originalName: 
-    pivot: {x: 0.4615385, y: -0.05}
+    pivot: {x: 0.3846154, y: 0}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 46
-      y: 88
+      x: 4
+      y: 217
       width: 13
-      height: 20
+      height: 21
     spriteID: 2a7a395cbfb2bfa49ac8038014c13c9d
     spriteBone: []
     spriteOutline: []
@@ -358,18 +358,18 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 46, y: 88}
+    uvTransform: {x: 4, y: 217}
   - name: hoodGuy_Frame_12
     originalName: 
-    pivot: {x: 0.4615385, y: -0.04761905}
+    pivot: {x: 0.4615385, y: -0.05}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 25
-      y: 4
+      x: 47
+      y: 119
       width: 13
-      height: 21
+      height: 20
     spriteID: 45647c0f3d7b2e74d97c6a634be61599
     spriteBone: []
     spriteOutline: []
@@ -378,7 +378,7 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 25, y: 4}
+    uvTransform: {x: 47, y: 119}
   - name: hoodGuy_Frame_13
     originalName: 
     pivot: {x: 0.4615385, y: -0.04761905}
@@ -387,7 +387,7 @@ ScriptedImporter:
     rect:
       serializedVersion: 2
       x: 25
-      y: 33
+      y: 38
       width: 13
       height: 21
     spriteID: 6cc2ff8458107e24eae999aa89b16122
@@ -398,7 +398,7 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 25, y: 33}
+    uvTransform: {x: 25, y: 38}
   - name: hoodGuy_Frame_14
     originalName: 
     pivot: {x: 0.4615385, y: -0.05}
@@ -406,8 +406,8 @@ ScriptedImporter:
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 67
-      y: 4
+      x: 47
+      y: 147
       width: 13
       height: 20
     spriteID: a8f9efe012c174b4db44eaf348ed996b
@@ -418,7 +418,327 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 67, y: 4}
+    uvTransform: {x: 47, y: 147}
+  - name: hoodGuy_Frame_15
+    originalName: 
+    pivot: {x: 0.4615385, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 25
+      y: 67
+      width: 13
+      height: 21
+    spriteID: fefaa35adfcd36d49906d51f34f05e96
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 25, y: 67}
+  - name: hoodGuy_Frame_16
+    originalName: 
+    pivot: {x: 0.4615385, y: -0.04761905}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 25
+      y: 96
+      width: 13
+      height: 21
+    spriteID: 8c824f0e6aab38c45a089638bcfcb240
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 25, y: 96}
+  - name: hoodGuy_Frame_17
+    originalName: 
+    pivot: {x: 0.4615385, y: -0.05}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 47
+      y: 175
+      width: 13
+      height: 20
+    spriteID: 06bddcb809fea814bbc9be60efd77f23
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 47, y: 175}
+  - name: hoodGuy_Frame_18
+    originalName: 
+    pivot: {x: 0.3846154, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 25
+      y: 125
+      width: 13
+      height: 21
+    spriteID: c5a886565abb28f44b830d3c4e6c16d2
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 25, y: 125}
+  - name: hoodGuy_Frame_19
+    originalName: 
+    pivot: {x: 0.4615385, y: -0.04761905}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 25
+      y: 154
+      width: 13
+      height: 21
+    spriteID: 210749c27b03edb4db8a7f0e65d8060c
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 25, y: 154}
+  - name: hoodGuy_Frame_20
+    originalName: 
+    pivot: {x: 0.4615385, y: -0.05}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 47
+      y: 203
+      width: 13
+      height: 20
+    spriteID: 3fcacff0dbb35ec419a91092c3719c30
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 47, y: 203}
+  - name: hoodGuy_Frame_21
+    originalName: 
+    pivot: {x: 0.4615385, y: -0.05}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 47
+      y: 231
+      width: 13
+      height: 20
+    spriteID: 2c61cf63fa694f04fb6576e3ae450c88
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 47, y: 231}
+  - name: hoodGuy_Frame_22
+    originalName: 
+    pivot: {x: 0.4615385, y: -0.04761905}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 25
+      y: 183
+      width: 13
+      height: 21
+    spriteID: 0474b3a182db33a4b9f251c0d22d6742
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 25, y: 183}
+  - name: hoodGuy_Frame_23
+    originalName: 
+    pivot: {x: 0.4615385, y: -0.04761905}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 25
+      y: 212
+      width: 13
+      height: 21
+    spriteID: 9936733b6d44c1e48a0765cc5d25297b
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 25, y: 212}
+  - name: hoodGuy_Frame_24
+    originalName: 
+    pivot: {x: 0.4615385, y: -0.05}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 68
+      y: 4
+      width: 13
+      height: 20
+    spriteID: d3a784c199820c040938dd5dad3d05be
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 68, y: 4}
+  - name: hoodGuy_Frame_25
+    originalName: 
+    pivot: {x: 0.5, y: -0.055555556}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 89
+      y: 4
+      width: 14
+      height: 18
+    spriteID: 7e217fd7460face4aba8cca32da6464f
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 89, y: 4}
+  - name: hoodGuy_Frame_26
+    originalName: 
+    pivot: {x: 0.5, y: -0.05882353}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 89
+      y: 30
+      width: 14
+      height: 17
+    spriteID: 30e229db29ec5264ea530f6994f89f73
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 89, y: 30}
+  - name: hoodGuy_Frame_27
+    originalName: 
+    pivot: {x: 0.5, y: -0.05882353}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 89
+      y: 55
+      width: 14
+      height: 17
+    spriteID: f612abe332ddecb48a936c55e71963ff
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 89, y: 55}
+  - name: hoodGuy_Frame_28
+    originalName: 
+    pivot: {x: 0.5, y: -0.03846154}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 25
+      y: 4
+      width: 14
+      height: 26
+    spriteID: 26162bee455c82148931ef734e60bfb0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 25, y: 4}
+  - name: hoodGuy_Frame_29
+    originalName: 
+    pivot: {x: 0.4615385, y: -0.03448276}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 4
+      width: 13
+      height: 29
+    spriteID: 369958ae9937d9d4cbe72994b45d567e
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 4}
+  - name: hoodGuy_Frame_30
+    originalName: 
+    pivot: {x: 0.4615385, y: -0.04761905}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 47
+      y: 4
+      width: 13
+      height: 21
+    spriteID: 7e1e861d61a727748874db75aaacd150
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 47, y: 4}
   spriteSheetImportData: []
   asepriteLayers:
   - layerIndex: 0
@@ -471,18 +791,18 @@ ScriptedImporter:
     - name: hoodGuy_Frame_5
       frameIndex: 5
       cellRect:
-        x: 2
-        y: 1
+        x: 1
+        y: 0
         width: 13
-        height: 20
+        height: 21
       spriteId: 0d7a77aa738356f4c887d03a57c1774d
     - name: hoodGuy_Frame_6
       frameIndex: 6
       cellRect:
-        x: 2
-        y: 1
+        x: 1
+        y: 0
         width: 13
-        height: 20
+        height: 22
       spriteId: b57c88ed89ea39340a2b4f417038dd57
     - name: hoodGuy_Frame_7
       frameIndex: 7
@@ -490,13 +810,13 @@ ScriptedImporter:
         x: 2
         y: 1
         width: 13
-        height: 21
+        height: 20
       spriteId: afc2b6977d2da934d8182ea8a1b21bab
     - name: hoodGuy_Frame_8
       frameIndex: 8
       cellRect:
-        x: 2
-        y: 1
+        x: 1
+        y: 0
         width: 13
         height: 21
       spriteId: a3d32712689935640bc1d083ce411604
@@ -506,7 +826,7 @@ ScriptedImporter:
         x: 2
         y: 1
         width: 13
-        height: 20
+        height: 21
       spriteId: e0f983b81e2d3fe45a3b748fdf532d89
     - name: hoodGuy_Frame_10
       frameIndex: 10
@@ -519,10 +839,10 @@ ScriptedImporter:
     - name: hoodGuy_Frame_11
       frameIndex: 11
       cellRect:
-        x: 2
-        y: 1
+        x: 3
+        y: 0
         width: 13
-        height: 20
+        height: 21
       spriteId: 2a7a395cbfb2bfa49ac8038014c13c9d
     - name: hoodGuy_Frame_12
       frameIndex: 12
@@ -530,7 +850,7 @@ ScriptedImporter:
         x: 2
         y: 1
         width: 13
-        height: 21
+        height: 20
       spriteId: 45647c0f3d7b2e74d97c6a634be61599
     - name: hoodGuy_Frame_13
       frameIndex: 13
@@ -548,6 +868,134 @@ ScriptedImporter:
         width: 13
         height: 20
       spriteId: a8f9efe012c174b4db44eaf348ed996b
+    - name: hoodGuy_Frame_15
+      frameIndex: 15
+      cellRect:
+        x: 2
+        y: 0
+        width: 13
+        height: 21
+      spriteId: fefaa35adfcd36d49906d51f34f05e96
+    - name: hoodGuy_Frame_16
+      frameIndex: 16
+      cellRect:
+        x: 2
+        y: 1
+        width: 13
+        height: 21
+      spriteId: 8c824f0e6aab38c45a089638bcfcb240
+    - name: hoodGuy_Frame_17
+      frameIndex: 17
+      cellRect:
+        x: 2
+        y: 1
+        width: 13
+        height: 20
+      spriteId: 06bddcb809fea814bbc9be60efd77f23
+    - name: hoodGuy_Frame_18
+      frameIndex: 18
+      cellRect:
+        x: 3
+        y: 0
+        width: 13
+        height: 21
+      spriteId: c5a886565abb28f44b830d3c4e6c16d2
+    - name: hoodGuy_Frame_19
+      frameIndex: 19
+      cellRect:
+        x: 2
+        y: 1
+        width: 13
+        height: 21
+      spriteId: 210749c27b03edb4db8a7f0e65d8060c
+    - name: hoodGuy_Frame_20
+      frameIndex: 20
+      cellRect:
+        x: 2
+        y: 1
+        width: 13
+        height: 20
+      spriteId: 3fcacff0dbb35ec419a91092c3719c30
+    - name: hoodGuy_Frame_21
+      frameIndex: 21
+      cellRect:
+        x: 2
+        y: 1
+        width: 13
+        height: 20
+      spriteId: 2c61cf63fa694f04fb6576e3ae450c88
+    - name: hoodGuy_Frame_22
+      frameIndex: 22
+      cellRect:
+        x: 2
+        y: 1
+        width: 13
+        height: 21
+      spriteId: 0474b3a182db33a4b9f251c0d22d6742
+    - name: hoodGuy_Frame_23
+      frameIndex: 23
+      cellRect:
+        x: 2
+        y: 1
+        width: 13
+        height: 21
+      spriteId: 9936733b6d44c1e48a0765cc5d25297b
+    - name: hoodGuy_Frame_24
+      frameIndex: 24
+      cellRect:
+        x: 2
+        y: 1
+        width: 13
+        height: 20
+      spriteId: d3a784c199820c040938dd5dad3d05be
+    - name: hoodGuy_Frame_25
+      frameIndex: 25
+      cellRect:
+        x: 1
+        y: 1
+        width: 14
+        height: 18
+      spriteId: 7e217fd7460face4aba8cca32da6464f
+    - name: hoodGuy_Frame_26
+      frameIndex: 26
+      cellRect:
+        x: 1
+        y: 1
+        width: 14
+        height: 17
+      spriteId: 30e229db29ec5264ea530f6994f89f73
+    - name: hoodGuy_Frame_27
+      frameIndex: 27
+      cellRect:
+        x: 1
+        y: 1
+        width: 14
+        height: 17
+      spriteId: f612abe332ddecb48a936c55e71963ff
+    - name: hoodGuy_Frame_28
+      frameIndex: 28
+      cellRect:
+        x: 1
+        y: 1
+        width: 14
+        height: 26
+      spriteId: 26162bee455c82148931ef734e60bfb0
+    - name: hoodGuy_Frame_29
+      frameIndex: 29
+      cellRect:
+        x: 2
+        y: 1
+        width: 13
+        height: 29
+      spriteId: 369958ae9937d9d4cbe72994b45d567e
+    - name: hoodGuy_Frame_30
+      frameIndex: 30
+      cellRect:
+        x: 2
+        y: 1
+        width: 13
+        height: 21
+      spriteId: 7e1e861d61a727748874db75aaacd150
     linkedCells: []
     parentIndex: -1
   platformSettings: []
