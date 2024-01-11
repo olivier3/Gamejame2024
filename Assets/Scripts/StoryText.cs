@@ -5,10 +5,10 @@ public class StoryText : MonoBehaviour
 {
     public Dictionary<string, string> texts = new()
     {
-        // Pour cette scene, l'Èpreuve est de chercher a sonner la cloche plusieurs fois. Les indices permettent d'indiquer au joueurs le nombre de fois qu'il doit sonner
+        // Pour cette scene, l'√©preuve est de chercher a sonner la cloche plusieurs fois. Les indices permettent d'indiquer au joueurs le nombre de fois qu'il doit sonner
         // Pour cette enigme, il faut qu'une pleine lune soit visible quelque part dans le niveau, afin de pieger le joueur a ne sonner que 2 fois.
-        {"Livre1_1", "¿ l'aube de la troisiËme journÈe, trois cavaliers provenant de la citÈ des trois lunes arrivËrent. Chacun offrit une offrande ‡ notre maÓtre vÈnÈrÈ. Nous rÈpÈtons ces offrandes par trois coups de cloches successifs." },
-        {"Livre1_2", "Malheureusement, le guerrier de la pleine lune trahit la volontÈ de notre maÓtre. Ainsi, un coup de moins retentira les soirs de lunes rondes." },
+        {"Livre1_1", "A l'aube de la troisi√®me journ√©e, trois cavaliers provenant de la cit√© des trois lunes arriv√®rent. Chacun offrit une offrande √† notre ma√Ætre v√©n√©r√©. Nous r√©p√©tons ces offrandes par trois coups de cloches successifs." },
+        {"Livre1_2", "Malheureusement, le guerrier de la pleine lune trahit la volont√© de notre ma√Ætre. Ainsi, un coup de moins retentira les soirs de lunes rondes." },
 
         // Dans cette scene, le joueur devrait trouver quoi sacrifier au grand gourou. Les indices permettent de trouver quoi sacrifier
         {"Livre2", "TODO" },
@@ -25,26 +25,27 @@ public class StoryText : MonoBehaviour
         {"Lampions1", "TODO" },
         {"Livre3", "TODO" },
 
-        // Scene du mot de passe, la rÈponse est visible dans une autre salle, le message sera codÈ
-        {"PassRoom1", "Quel est le premier enseignement de notre grand maÓtre ?" },
+        // Scene du mot de passe, la rÔøΩponse est visible dans une autre salle, le message sera codÔøΩ
+        {"PassRoom1", "Quel est le premier enseignement de notre grand maÔøΩtre ?" },
         {"PassChoix1", "Harmonie" },
         {"PassChoix2", "Barbie" },
         {"PassChoix3", "Pamplemousse" },
         {"PassChoix4", "Charbonnier" },
-        {"PassRoom2", "Ouiiii, c'est la bonne rÈponse! Peut Ítre ?" },
-        {"PostIt1", "Certains mots sont effacÈs, mais on peut distinguer les mots \"Oub ie  as,  e  o  de  a se est :  ar on  \"" },
-        {"PostIt2", "BOB ! On m'a apprie que tu as 'ENCORE' oubliÈ le mot de passe.... ca rime avec 'AEROPHAGIE'" },
+        {"PassRoom2", "Ouiiii, c'est la bonne r√©ponse! Peut √™tre ?" },
+        {"PostIt1", "Certains mots sont effacÔøΩs, mais on peut distinguer les mots \"Oub ie  as, l'ense gn me t est :  ar on  \"" },
+        {"PostIt2", "BOB ! On m'a apprie que tu as 'ENCORE' oubli√© le mot de passe.... ca rime avec 'AEROPHAGIE'" },
 
 
         // Scene de la clef
-        {"KeyRoom1", "TODO" },
-        {"KeyRoom2", "TODO" },
+        {"KeyRoom1", "Hey te voil√† le nouveau ! Tiens, voil√† ta clef personnelle. Fais en bon usage !" },
+        {"KeyRoom2", "Nouvel objet obtenu : Clef personnelle. \n Vos initiales sont grav√©es dessus." },
+        {"KeyRoom3", "Vous avez utilis√© la clef sur le vieux coffre" },
         {"Livre4_1", "TODO" },
         {"Livre4_2", "TODO" },
         {"Livre4_3", "TODO" },
         {"Livre4_4", "TODO" },
 
-        // Scene finale, qui va dÈfinir si nos choix sont bon.
+        // Scene finale, qui va d√©finir si nos choix sont bon.
         {"ManqueSacrifice", "TODO" },
         {"ManqueCloche", "TODO" },
         {"ManquePriere", "TODO" },
@@ -55,22 +56,22 @@ public class StoryText : MonoBehaviour
         {"FinPriere", "TODO" },
         {"BonneFin", "TODO" },
 
-        // Textes gÈnÈriques
-        {"NouvellePartie", "TODO" },
+        // Textes gÔøΩnÔøΩriques
+        {"NouvellePartie", "Vous √™tes une nouvelle recrue de la secte du [NOM DE LA SECTE], a vous de trouver un moyen de vous √©lever." },
 
     };
 
     public string GetRandomName()
     {
-        return nomAlÈatoire[Random.Range(0, nomAlÈatoire.Count)];
+        return nomAleatoire[Random.Range(0, nomAleatoire.Count)];
     }
 
-    private List<string> nomAlÈatoire = new()
+    private List<string> nomAleatoire = new()
     {
         "Absolon",
         "Adolphe",
         "Adrien",
-        "AimÈ",
+        "AimÔøΩ",
         "Alain",
         "Alphonse",
         "Amaury",
@@ -85,22 +86,20 @@ public class StoryText : MonoBehaviour
         "Arnaud",
         "Auguste",
         "Augustin",
-        "AurËçle",
         "Aurelien",
         "Baptiste",
         "Bastien",
         "Benoit",
         "Blaise",
         "Brice",
-        "CÈlestin",
+        "C√©lestin",
         "Cesaire",
         "Charlot",
         "Christophe",
-        "ClÈment",
+        "Cl√©ment",
         "Colombain",
         "Corin",
         "Damien",
-        "DÈsirÈ",
         "Didier",
         "Edgard",
         "Edmond",
@@ -108,20 +107,19 @@ public class StoryText : MonoBehaviour
         "Emile",
         "Emilien",
         "Etienne",
-        "EugËçne",
+        "Eug√®ne",
         "Eustache",
         "Fabien",
         "Fabrice",
         "Felicien",
-        "FÈlix",
+        "F√©lix",
         "Fernand",
         "Fiacre",
         "Firmin",
         "Florentin",
         "Franck",
         "Francois",
-        "FrÈdÈric",
-        "GaÈtan",
+        "Fr√©d√©ric",
         "Gaspard",
         "Gaston",
         "Gautier",
@@ -131,23 +129,23 @@ public class StoryText : MonoBehaviour
         "Ghislain",
         "Gilles",
         "Gratien",
-        "GrÈgoire",
+        "GrÔøΩgoire",
         "Guillaume",
         "Gustave",
         "Henri",
         "Hercule",
-        "HervÈ",
+        "Herv√©",
         "Ignace",
         "Jacques",
         "Jean",
         "Jean-Baptiste",
         "Jean-Marie",
-        "JÈrÈmie",
+        "J√©r√©mie",
         "Julien",
         "Juste",
         "Laurent",
-        "LÈon",
-        "LÈonard",
+        "L√©on",
+        "L√©onard",
         "Lionel",
         "Luc",
         "Lucien",
@@ -163,14 +161,14 @@ public class StoryText : MonoBehaviour
         "Perceval",
         "Philippe",
         "Pierre",
-        "RaphaËl",
-        "RÈgis",
-        "RÈmi",
+        "Raphael",
+        "R√©gis",
+        "R√©mi",
         "Renaud",
         "Rodolphe",
         "Rodrigue",
         "Romain",
-        "SÈbastien",
+        "S√©bastien",
         "Serge",
         "Sylvain",
         "Thibault",
