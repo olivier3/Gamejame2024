@@ -7,12 +7,6 @@ public class BellInteraction : MonoBehaviour
     private int bellActivationCount = 0;
     private bool inBellRange = false;
 
-    // Start is called before the first frame update
-    void Start()
-    {
-
-    }
-
     // Update is called once per frame
     void Update()
     {
