@@ -72,3 +72,18 @@ crashlytics-build.properties
 # Temporary auto-generated Android Assets
 /[Aa]ssets/[Ss]treamingAssets/aa.meta
 /[Aa]ssets/[Ss]treamingAssets/aa/*
+Assets/Sounds/bells.wav.meta
+Assets/Sounds/chest.wav.meta
+Assets/Sounds/fireWhoosh.wav.meta
+Assets/Sounds/guruVoice.flac.meta
+Assets/Sounds/kiss.wav.meta
+Assets/Sounds/openingDoor.wav.meta
+Assets/Sounds/pageFlip.wav.meta
+Assets/Sounds/Semion Krivenko-Adamov - 33°.mp3.meta
+Assets/Sounds/Semion Krivenko-Adamov - What the History Hides.mp3.meta
+Assets/Sounds/thunder.wav.meta
+Assets/Sounds/voice1.wav.meta
+Assets/Sounds/voice2.wav.meta
+Assets/Sounds/voice3.wav.meta
+Assets/Sounds/voice4.wav.meta
+Assets/Sounds/voice5.wav.meta
