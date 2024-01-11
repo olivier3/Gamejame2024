@@ -19,7 +19,6 @@ public class BellInteraction : MonoBehaviour
         if (inBellRange && Input.GetKeyDown(KeyCode.E))
         {
             bellActivationCount++;
-            Debug.Log(bellActivationCount + " bell activation");
         }
     }
 
