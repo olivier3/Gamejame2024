@@ -7,7 +7,8 @@ public class StoryText : MonoBehaviour
     {
         // Pour cette scene, l'épreuve est de chercher a sonner la cloche plusieurs fois. Les indices permettent d'indiquer au joueurs le nombre de fois qu'il doit sonner
         // Pour cette enigme, il faut qu'une pleine lune soit visible quelque part dans le niveau, afin de pieger le joueur a ne sonner que 2 fois.
-        {"Livre1_1", "A l'aube de la troisième journée, trois cavaliers provenant de la cité des trois lunes arrivèrent. Chacun offrit une offrande à notre maître vénéré. Nous répétons ces offrandes par trois coups de cloches successifs." },
+        {"Livre1_1", "A l'aube de la troisième journée, trois cavaliers provenant de la cité des trois lunes arrivèrent. " +
+            "Chacun offrit une offrande à notre maître vénéré. Nous répétons ces offrandes par trois coups de cloches successifs." },
         {"Livre1_2", "Malheureusement, le guerrier de la pleine lune trahit la volonté de notre maître. Ainsi, un coup de moins retentira les soirs de lunes rondes." },
 
         // Dans cette scene, le joueur devrait trouver quoi sacrifier au grand gourou. Les indices permettent de trouver quoi sacrifier
@@ -26,18 +27,19 @@ public class StoryText : MonoBehaviour
         {"PriereChoix3", "Voulez-vous vous assoir pour méditer ?" },
 
         // Scene des lampions, le joueur va devoir allumer certains lampions.
-        {"Lampions1", "TODO" },
-        {"Livre3", "TODO" },
+        {"Lampions1", "J'ai besoin d'aide pour allumer ces chandelles. Je ne me souviens plus lesquelles je dois allumer." },
+        {"Livre3", "Au début de la 8eme journée, notre maître regarda au nord, et ne vis que désolation. Au sud, désespoir." +
+            " Ici, terreur. Seul la terre de l'Ouest et celle de l'Est furent choisies pour établir ses saints préceptes." },
 
-        // Scene du mot de passe, la r�ponse est visible dans une autre salle, le message sera cod�(
+        // Scene du mot de passe, la r�ponse est visible dans une autre salle, le message sera codé
         {"PassRoom1", "Quel est le premier enseignement de notre grand maître ?" },
         {"PassChoix1", "Harmonie" },
         {"PassChoix2", "Barbie" },
         {"PassChoix3", "Pamplemousse" },
         {"PassChoix4", "Charbonnier" },
         {"PassRoom2", "Ouiiii, c'est la bonne réponse! Peut être ?" },
-        {"PostIt1", "Certains mots sont effacés, mais on peut distinguer les mots \"Oub ie  as, l'ense gn me t est :  ar on  \"" },
-        {"PostIt2", "BOB ! On m'a apprie que tu as 'ENCORE' oublié le mot de passe.... ca rime avec 'AEROPHAGIE'" },
+        {"PostIt1", "Certains mots sont effacés, mais on peut distinguer certaines lettres \"Oub ie  as, l'ense gn me t est :  ar on  \"" },
+        {"PostIt2", "BOB ! On m'a apprie que tu as 'ENCORE' oublié l'enseignement.... ca rime avec 'AEROPHAGIE'" },
 
 
         // Scene de la clef
@@ -48,19 +50,30 @@ public class StoryText : MonoBehaviour
         {"Livre4_2", "Car derrière chaque serrure, un destin est brodé,\nEt l'imprudence peut t'égarer dans l'obscurité." },
 
         // Scene finale, qui va définir si nos choix sont bon.
-        {"ManqueSacrifice", "TODO" },
-        {"ManqueCloche", "TODO" },
-        {"ManquePriere", "TODO" },
-        {"ManqueLampions", "TODO" },
-        {"FinLampions", "TODO" },
-        {"FinCloche", "TODO" },
-        {"FinSacrifice", "TODO" },
-        {"FinPriere", "TODO" },
-        {"BonneFin", "TODO" },
+        // Les "manque" représentent si l'action n'a pas été faite.
+        {"ManqueSacrifice", "\"Un sacrifice pour son maître\", pourquoi n'ai-je rien recu ?" },
+        {"ManqueCloche", "\"Un son de cloche pour son maître\", je n'ai rien entendu !" },
+        {"ManquePriere", "\"Une priere pour son maître\", je n'ai pas entendu m'implorer ?" },
+        {"ManqueLampions", "\"Un guide pour son maître\", je ne connais pas le chemin." },
+        {"ManqueClef", "\"Un artéfact sacré\", qui êtes vous ?" },
+        {"ManquePass", "\"Un enseignement pour les aligner tous\", je ne l'ai pas entendu" },
+
+        // Les "Fin" représentent si l'action a été mal faite
+        {"FinLampions", "Les lumières sacrées ne correspondent pas a nos préceptes" },
+        {"FinCloche", "La cloche n'a pas sonnée le nombre correcte de fois." },
+        {"FinSacrifice", "Que m'avez vous donné en sacrifice ? Sauvage !" },
+        {"FinPriere", "La prière est très importante pour moi, comment OSEZ VOUS vous moquer ainsi ?" },
+        {"FinPass", "Je n'ai qu'un enseignement, et vous avez été capable de vous tromper ? Vous vous moquez de moi ?" },
+        {"FinClef", "Avez vous votre artéfact ? NON ? Vous aviez UN JOB !" },
+
+        {"BonneFin", "Vous êtes définitivement un grand réprésentant de notre ordre. Félicitation !" },
 
         // Textes génériques
         {"NouvellePartie", "Vous êtes une nouvelle recrue de la secte du Culte de l'Acier, a vous de trouver un moyen de vous élever." },
-
+        {"FinDePartie", "Le grand gourou a a détécté l'imposture.\n Fin de partie" },
+        // Je les met pour de la généricité. Si on met de l'anglais, ca va faciliter la chose
+        {"Oui", "Oui" },
+        {"Non", "Non" },
     };
 
     public string GetRandomName()
