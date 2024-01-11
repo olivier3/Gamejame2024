@@ -18,6 +18,10 @@ public class CharacterInteraction : MonoBehaviour
     [SerializeField]
     private TextMeshPro text;
     public bool Movement = true;
+    [SerializeField]
+    private GameObject MC;
+    [SerializeField]
+    private GameObject OtherCharac;
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
@@ -26,9 +30,10 @@ public class CharacterInteraction : MonoBehaviour
             text.text = StoryText.texts[textKeys[index]];
 
             touche.SetActive(true);
-            if (Input.GetKeyDown(KeyCode.Q))
+            if (Input.GetKeyDown(KeyCode.E))
             {
                 touche.SetActive(false);
+                UI.SetActive(true);
                 if (index is null )
                 {
                     index = 0;

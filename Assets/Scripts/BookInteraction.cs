@@ -23,12 +23,14 @@ public class BookInteraction : MonoBehaviour
         {
             text.text = StoryText.texts[textKey];
             touche.SetActive(true);
-            if (Input.GetKeyDown(KeyCode.Q) && UI.active)
+            if (Input.GetKeyDown(KeyCode.E) && UI.active)
             {
+                touche.SetActive(true);
                 UI.SetActive(false);
             }
             else
             {
+                touche.SetActive(false);
                 UI.SetActive(true);
             }
         }
@@ -42,5 +44,5 @@ public class BookInteraction : MonoBehaviour
             UI.SetActive(false);
         }
     }
-    */
+ */   
 }
