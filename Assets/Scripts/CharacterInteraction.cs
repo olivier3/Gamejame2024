@@ -52,5 +52,13 @@ public class CharacterInteraction : MonoBehaviour
             }
         }
     }
+
+    private void OnCollisionExit2D(Collision2D collision)
+    {
+        if (collision.collider.tag == collisionTag)
+        {
+            touche.SetActive(false);
+        }
+    }
     */
 }
