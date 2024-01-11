@@ -7,6 +7,8 @@ public class PlayerMouvement : MonoBehaviour
 {
     [SerializeField]
     private float speed = 5f;
+    [SerializeField]
+    private Animator anim;
     // Start is called before the first frame update
     void Start()
     {
@@ -16,24 +18,17 @@ public class PlayerMouvement : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKey(KeyCode.W))
+        anim.SetBool("walk", false);
+        if (Input.GetAxis("Vertical") != 0)
         {
-            transform.position += new Vector3(0, 1) * speed * Time.deltaTime;
+            transform.position += new Vector3(0, Input.GetAxis("Vertical")) * speed * Time.deltaTime;
+            anim.SetBool("walk", true);
         }
 
-        if (Input.GetKey(KeyCode.A))
+        if (Input.GetAxis("Horizontal") != 0)
         {
-            transform.position += new Vector3(-1, 0) * speed * Time.deltaTime;
-        }
-
-        if (Input.GetKey(KeyCode.S))
-        {
-            transform.position += new Vector3(0, -1) * speed * Time.deltaTime;
-        }
-
-        if (Input.GetKey(KeyCode.D))
-        {
-            transform.position += new Vector3(1, 0) * speed * Time.deltaTime;
+            transform.position += new Vector3(Input.GetAxis("Horizontal"), 0) * speed * Time.deltaTime;
+            anim.SetBool("walk", true);
         }
     }
 }
