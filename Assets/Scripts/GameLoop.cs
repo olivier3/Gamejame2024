@@ -43,7 +43,7 @@ public class GameLoop : MonoBehaviour
         AscendStateReached = false;
     }
 
-    public void AcheiveBellInteraction(bool result)
+    public void AchieveBellInteraction(bool result)
     {
         if (result)
         {
@@ -62,7 +62,7 @@ public class GameLoop : MonoBehaviour
         }
     }
 
-    public void AcheiveLampionInteraction(bool result)
+    public void AchieveLampionInteraction(bool result)
     {
         if (result)
         {
@@ -81,28 +81,40 @@ public class GameLoop : MonoBehaviour
         }
     }
 
-    public void AcheivePriereInteraction()
+    public void AchievePriereInteraction(bool result)
     {
-        priereSuccess = true;
-        ritualStepCompleted++;
-        RitualValidation();
+        if (result)
+        {
+            priereSuccess = true;
+            ritualStepCompleted++;
+            RitualValidation();
+        }
+        else
+        {
+            if (priereSuccess == true && ritualStepCompleted > 0)
+            {
+                priereSuccess = false;
+                ritualStepCompleted--;
+                RitualValidation();
+            }
+        }
     }
 
-    public void AcheiveSacrificeInteraction()
+    public void AchieveSacrificeInteraction()
     {
         sacrificeSuccess = true;
         ritualStepCompleted++;
         RitualValidation();
     }
 
-    public void AcheivePasswordInteraction()
+    public void AchievePasswordInteraction()
     {
         passwordSuccess = true;
         ritualStepCompleted++;
         RitualValidation();
     }
 
-    public void AcheiveChestInteraction()
+    public void AchieveChestInteraction()
     {
         chestSuccess = true;
         ritualStepCompleted++;

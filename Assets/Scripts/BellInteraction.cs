@@ -41,11 +41,11 @@ public class BellInteraction : MonoBehaviour
     {
         if (bellActivationCount == 3)
         {
-            GameLoop.Instance.AcheiveBellInteraction(true);
+            GameLoop.Instance.AchieveBellInteraction(true);
         }
         else
         {
-            GameLoop.Instance.AcheiveBellInteraction(false);
+            GameLoop.Instance.AchieveBellInteraction(false);
             bellActivationCount = 0;
         }
     }
