@@ -9,6 +9,8 @@ public class ChestInteraction : MonoBehaviour
     private GameObject chestClosed;
     [SerializeField]
     private GameObject chestOpen;
+    [SerializeField]
+    private AudioSource audioSource;
 
     // Update is called once per frame
     void Update()
@@ -17,6 +19,7 @@ public class ChestInteraction : MonoBehaviour
         {
             if (GameLoop.Instance.hasChestKey)
             {
+                audioSource.Play();
                 GameLoop.Instance.FailChestInteraction();
                 chestClosed.SetActive(false);
                 chestOpen.SetActive(true);
