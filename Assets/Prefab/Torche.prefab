@@ -10,6 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8877619061981477118}
   - component: {fileID: 5277753061516161828}
+  - component: {fileID: 3984879497924416137}
   m_Layer: 0
   m_Name: Torche
   m_TagString: Untagged
@@ -83,6 +84,24 @@ MonoBehaviour:
   - {x: 0.5, y: -0.5, z: 0}
   - {x: 0.5, y: 0.5, z: 0}
   - {x: -0.5, y: 0.5, z: 0}
+--- !u!114 &3984879497924416137
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5227026813293224025}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a16b58d4c04a97e40b054fce272dbaf7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  minIntensity: 0.8
+  maxIntensity: 1.2
+  minFlickerSpeed: 0.1
+  maxFlickerSpeed: 2
+  minFlickerTime: 0.08
+  maxFlickerTime: 0.15
 --- !u!1 &9059434239195418430
 GameObject:
   m_ObjectHideFlags: 0
