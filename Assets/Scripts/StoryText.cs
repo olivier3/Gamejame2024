@@ -5,74 +5,74 @@ public class StoryText : MonoBehaviour
 {
     public static Dictionary<string, string> texts = new()
     {
-        // Pour cette scene, l'épreuve est de chercher a sonner la cloche plusieurs fois. Les indices permettent d'indiquer au joueurs le nombre de fois qu'il doit sonner
+        // Pour cette scene, l'epreuve est de chercher a sonner la cloche plusieurs fois. Les indices permettent d'indiquer au joueurs le nombre de fois qu'il doit sonner
         // Pour cette enigme, il faut qu'une pleine lune soit visible quelque part dans le niveau, afin de pieger le joueur a ne sonner que 2 fois.
-        {"Livre1_1", "A l'aube de la troisième journée, trois cavaliers provenant de la cité des trois lunes arrivèrent. " +
-            "Chacun offrit une offrande à notre maître vénéré. Nous répétons ces offrandes par trois coups de cloches successifs." },
-        {"Livre1_2", "Malheureusement, le guerrier de la pleine lune trahit la volonté de notre maître. Ainsi, un coup de moins retentira les soirs de lunes rondes." },
-        {"Cloche1", "La nuit est éclairée par une pleine lune d'une étrange clarté" },
+        {"Livre1_1", "A l'aube de la troisieme journee, trois cavaliers provenant de la cite des trois lunes arriverent. " +
+            "Chacun offrit une offrande a notre maitre venere. Nous repetons ces offrandes par trois coups de cloches successifs." },
+        {"Livre1_2", "Malheureusement, le guerrier de la pleine lune trahit la volonte de notre maitre. Ainsi, un coup de moins retentira les soirs de lunes rondes." },
+        {"Cloche1", "La nuit est eclairee par une pleine lune d'une etrange clarte" },
 
         // Dans cette scene, le joueur devrait trouver quoi sacrifier au grand gourou. Les indices permettent de trouver quoi sacrifier
-        {"Livre2", "Un sacrifice sacré, une offrande vénérée, a notre grand maître, devra être donnée." },
-        {"Sacrifice1", "Voulez-vous sacrifier cette tête de Mickey ?" },
-        {"Sacrifice2", "Voulez-vous sacrifier cette poupée ?" },
+        {"Livre2", "Un sacrifice sacre, une offrande veneree, a notre grand maitre, devra etre donnee." },
+        {"Sacrifice1", "Voulez-vous sacrifier cette tete de Mickey ?" },
+        {"Sacrifice2", "Voulez-vous sacrifier cette poupee ?" },
         {"Sacrifice3", "Voulez-vous sacrifier ce Brocolli !?" },
-        {"Sacrifice4", "Voulez-vous sacrifier cette pauvre chèvre ?" },
-        {"Discussion1_1", "Je me demande ce que je vais faire a cuisiner a notre maître vénéré ce soir, aurais-tu une idée ?" },
-        {"Discussion1_2", "Hmmmm..... je verrais bien un BON GROS STEAK ! N'est-ce pas une bonne idée." },
-        {"Discussion1_3", "Es-tu fou ? Notre grand maître est végétarien, il ne faudrait pas attiser sa colère." },
+        {"Sacrifice4", "Voulez-vous sacrifier cette pauvre chevre ?" },
+        {"Discussion1_1", "Je me demande ce que je vais faire a cuisiner a notre maitre venere ce soir, aurais-tu une idee ?" },
+        {"Discussion1_2", "Hmmmm..... je verrais bien un BON GROS STEAK ! N'est-ce pas une bonne idee." },
+        {"Discussion1_3", "Es-tu fou ? Notre grand maitre est vegetarien, il ne faudrait pas attiser sa colere." },
 
         // Dans cette scene, le joueur doit effectuer la bonne priere. Des dessins ou des artworks sur les murs pour trouver comment prier
         {"PriereChoix1", "Voulez-vous effectuer une danse nuptiale ?" },
         {"PriereChoix2", "Voulez-vous rester immobile dans l'ombre ?" },
-        {"PriereChoix3", "Voulez-vous vous assoir pour méditer ?" },
+        {"PriereChoix3", "Voulez-vous vous assoir pour mediter ?" },
 
         // Scene des lampions, le joueur va devoir allumer certains lampions.
         {"Lampions1", "J'ai besoin d'aide pour allumer ces chandelles. Je ne me souviens plus lesquelles je dois allumer." },
-        {"Livre3", "Au début de la 8eme journée, notre maître regarda au nord, et ne vis que désolation. Au sud, désespoir." +
-            " Ici, terreur. Seul la terre de l'Ouest et celle de l'Est furent choisies pour établir ses saints préceptes." },
+        {"Livre3", "Au debut de la 8eme journee, notre maitre regarda au nord, et ne vis que desolation. Au sud, desespoir." +
+            " Ici, terreur. Seul la terre de l'Ouest et celle de l'Est furent choisies pour etablir ses saints preceptes." },
 
-        // Scene du mot de passe, la r�ponse est visible dans une autre salle, le message sera codé
-        {"PassRoom1", "Quel est le premier enseignement de notre grand maître ?" },
+        // Scene du mot de passe, la r�ponse est visible dans une autre salle, le message sera code
+        {"PassRoom1", "Quel est le premier enseignement de notre grand maitre ?" },
         {"PassChoix1", "Harmonie" },
         {"PassChoix2", "Barbie" },
         {"PassChoix3", "Pamplemousse" },
         {"PassChoix4", "Charbonnier" },
-        {"PassRoom2", "Ouiiii, c'est la bonne réponse! Peut être ?" },
-        {"PostIt1", "Certains mots sont effacés, mais on peut distinguer certaines lettres \"Oub ie  as, l'ense gn me t est :  ar on  \"" },
-        {"PostIt2", "BOB ! On m'a apprie que tu as 'ENCORE' oublié l'enseignement.... ca rime avec 'AEROPHAGIE'" },
+        {"PassRoom2", "Ouiiii, c'est la bonne reponse! Peut etre ?" },
+        {"PostIt1", "Certains mots sont effaces, mais on peut distinguer certaines lettres \"Oub ie  as, l'ense gn me t est :  ar on  \"" },
+        {"PostIt2", "BOB ! On m'a apprie que tu as 'ENCORE' oublie l'enseignement.... ca rime avec 'AEROPHAGIE'" },
 
 
         // Scene de la clef
-        {"KeyRoom1", "Hey te voilà le nouveau ! Tiens, voilà ta clef personnelle. Fais en bon usage !" },
-        {"KeyRoom2", "Nouvel objet obtenu : Clef personnelle. \n Vos initiales sont gravées dessus." },
-        {"KeyRoom3", "Vous avez utilisé la clef sur le vieux coffre. \n Nouvel objet obtenu: Gros cristal brillant." },
-        {"Livre4_1", "Dans l'ombre du culte, le pouvoir de la clé est loué,\nMais ne sois pas esclave de son éclat doré." },
-        {"Livre4_2", "Car derrière chaque serrure, un destin est brodé,\nEt l'imprudence peut t'égarer dans l'obscurité." },
+        {"KeyRoom1", "Hey te voila le nouveau ! Tiens, voila ta clef personnelle. Fais en bon usage !" },
+        {"KeyRoom2", "Nouvel objet obtenu : Clef personnelle. \n Vos initiales sont gravees dessus." },
+        {"KeyRoom3", "Vous avez utilise la clef sur le vieux coffre. \n Nouvel objet obtenu: Gros cristal brillant." },
+        {"Livre4_1", "Dans l'ombre du culte, le pouvoir de la cle est loue,\nMais ne sois pas esclave de son eclat dore." },
+        {"Livre4_2", "Car derriere chaque serrure, un destin est brode,\nEt l'imprudence peut t'egarer dans l'obscurite." },
 
-        // Scene finale, qui va définir si nos choix sont bon.
-        // Les "manque" représentent si l'action n'a pas été faite.
-        {"ManqueSacrifice", "\"Un sacrifice pour son maître\", pourquoi n'ai-je rien recu ?" },
-        {"ManqueCloche", "\"Un son de cloche pour son maître\", je n'ai rien entendu !" },
-        {"ManquePriere", "\"Une priere pour son maître\", je n'ai pas entendu m'implorer ?" },
-        {"ManqueLampions", "\"Un guide pour son maître\", je ne connais pas le chemin." },
-        {"ManqueClef", "\"Un artéfact sacré\", qui êtes vous ?" },
+        // Scene finale, qui va definir si nos choix sont bon.
+        // Les "manque" representent si l'action n'a pas ete faite.
+        {"ManqueSacrifice", "\"Un sacrifice pour son maitre\", pourquoi n'ai-je rien recu ?" },
+        {"ManqueCloche", "\"Un son de cloche pour son maitre\", je n'ai rien entendu !" },
+        {"ManquePriere", "\"Une priere pour son maitre\", je n'ai pas entendu m'implorer ?" },
+        {"ManqueLampions", "\"Un guide pour son maitre\", je ne connais pas le chemin." },
+        {"ManqueClef", "\"Un artefact sacre\", qui etes vous ?" },
         {"ManquePass", "\"Un enseignement pour les aligner tous\", je ne l'ai pas entendu" },
 
-        // Les "Fin" représentent si l'action a été mal faite
-        {"FinLampions", "Les lumières sacrées ne correspondent pas a nos préceptes" },
-        {"FinCloche", "La cloche n'a pas sonnée le nombre correcte de fois." },
-        {"FinSacrifice", "Que m'avez vous donné en sacrifice ? Sauvage !" },
-        {"FinPriere", "La prière est très importante pour moi, comment OSEZ VOUS vous moquer ainsi ?" },
-        {"FinPass", "Je n'ai qu'un enseignement, et vous avez été capable de vous tromper ? Vous vous moquez de moi ?" },
-        {"FinClef", "Avez vous votre artéfact ? NON ? Vous aviez UN JOB !" },
+        // Les "Fin" representent si l'action a ete mal faite
+        {"FinLampions", "Les lumieres sacrees ne correspondent pas a nos preceptes" },
+        {"FinCloche", "La cloche n'a pas sonnee le nombre correcte de fois." },
+        {"FinSacrifice", "Que m'avez vous donne en sacrifice ? Sauvage !" },
+        {"FinPriere", "La priere est tres importante pour moi, comment OSEZ VOUS vous moquer ainsi ?" },
+        {"FinPass", "Je n'ai qu'un enseignement, et vous avez ete capable de vous tromper ? Vous vous moquez de moi ?" },
+        {"FinClef", "Avez vous votre artefact ? NON ? Vous aviez UN JOB !" },
 
-        {"BonneFin", "Vous êtes définitivement un grand réprésentant de notre ordre. Félicitation !" },
+        {"BonneFin", "Vous etes definitivement un grand representant de notre ordre. Felicitation !" },
 
-        // Textes génériques
-        {"NouvellePartie", "Vous êtes une nouvelle recrue de la secte du Culte de l'Acier, a vous de trouver un moyen de vous élever." },
-        {"FinDePartie", "Le grand gourou a a détécté l'imposture.\n Fin de partie" },
-        // Je les met pour de la généricité. Si on met de l'anglais, ca va faciliter la chose
+        // Textes generiques
+        {"NouvellePartie", "Vous etes une nouvelle recrue de la secte du Culte de l'Acier, a vous de trouver un moyen de vous elever." },
+        {"FinDePartie", "Le grand gourou a a detecte l'imposture.\n Fin de partie" },
+        // Je les met pour de la genericite. Si on met de l'anglais, ca va faciliter la chose
         {"Oui", "Oui" },
         {"Non", "Non" },
     };
@@ -87,7 +87,7 @@ public class StoryText : MonoBehaviour
         "Absolon",
         "Adolphe",
         "Adrien",
-        "Aimé",
+        "Aime",
         "Alain",
         "Alphonse",
         "Amaury",
@@ -108,11 +108,11 @@ public class StoryText : MonoBehaviour
         "Benoit",
         "Blaise",
         "Brice",
-        "Célestin",
+        "Celestin",
         "Cesaire",
         "Charlot",
         "Christophe",
-        "Clément",
+        "Clement",
         "Colombain",
         "Corin",
         "Damien",
@@ -123,19 +123,19 @@ public class StoryText : MonoBehaviour
         "Emile",
         "Emilien",
         "Etienne",
-        "Eugène",
+        "Eugene",
         "Eustache",
         "Fabien",
         "Fabrice",
         "Felicien",
-        "Félix",
+        "Felix",
         "Fernand",
         "Fiacre",
         "Firmin",
         "Florentin",
         "Franck",
         "Francois",
-        "Frédéric",
+        "Frederic",
         "Gaspard",
         "Gaston",
         "Gautier",
@@ -150,18 +150,18 @@ public class StoryText : MonoBehaviour
         "Gustave",
         "Henri",
         "Hercule",
-        "Hervé",
+        "Herve",
         "Ignace",
         "Jacques",
         "Jean",
         "Jean-Baptiste",
         "Jean-Marie",
-        "Jérémie",
+        "Jeremie",
         "Julien",
         "Juste",
         "Laurent",
-        "Léon",
-        "Léonard",
+        "Leon",
+        "Leonard",
         "Lionel",
         "Luc",
         "Lucien",
@@ -178,13 +178,13 @@ public class StoryText : MonoBehaviour
         "Philippe",
         "Pierre",
         "Raphael",
-        "Régis",
-        "Rémi",
+        "Regis",
+        "Remi",
         "Renaud",
         "Rodolphe",
         "Rodrigue",
         "Romain",
-        "Sébastien",
+        "Sebastien",
         "Serge",
         "Sylvain",
         "Thibault",
