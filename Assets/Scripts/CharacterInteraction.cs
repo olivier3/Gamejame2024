@@ -31,7 +31,7 @@ public class CharacterInteraction : MonoBehaviour
             else if (index < textKeys.Length - 1)
             {
                 index++;
-                audio[index].Play();
+                audio[0].Play();
                 text.text = StoryText.texts[textKeys[index]];
             }
             else
