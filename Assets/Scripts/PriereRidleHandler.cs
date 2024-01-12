@@ -12,5 +12,9 @@ public class PriereRidleHandler : MonoBehaviour
         {
             GameLoop.Instance.AchievePriereInteraction(true);
         }
+        else
+        {
+            GameLoop.Instance.AchievePriereInteraction(false);
+        }
     }
 }
