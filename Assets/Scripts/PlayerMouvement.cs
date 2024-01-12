@@ -14,7 +14,6 @@ public class PlayerMouvement : MonoBehaviour
 
     [HideInInspector]
     public bool canMove = true;
-    private bool isMoving = false;
     private float offsetX = 0f;
     private float offsetY = 0f;
 

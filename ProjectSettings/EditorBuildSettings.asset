@@ -29,4 +29,13 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/BellScene.unity
     guid: 81718b51f5c39104c978b571cd9720c2
+  - enabled: 1
+    path: Assets/Scenes/FinalScene.unity
+    guid: 8056623d794a64f438814ad78dcade6c
+  - enabled: 1
+    path: Assets/Scenes/GameOver.unity
+    guid: 8ce177f306a90244b831165515ba461c
+  - enabled: 1
+    path: Assets/Scenes/Victoire.unity
+    guid: 8e7df1b71f3bc114389a306963b21621
   m_configObjects: {}
