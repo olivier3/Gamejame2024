@@ -9,7 +9,9 @@ public class LampionInteraction : MonoBehaviour
     [SerializeField]
     private GameObject lampionOn;
     [SerializeField]
-    private GameObject lampionOff;
+    private AudioSource audioOpen;
+    [SerializeField]
+    private AudioSource audioClose;
 
     // Update is called once per frame
     void Update()
@@ -18,18 +20,16 @@ public class LampionInteraction : MonoBehaviour
         {
             if (isIgnite)
             {
-                lampionOn.SetActive(false);
-                lampionOff.SetActive(true);
-                isIgnite = !isIgnite;
                 LampionRidleHandler.DeactivateLampion(gameObject.name);
+                audioClose.Play();
             }
             else
             {
-                lampionOn.SetActive(true);
-                lampionOff.SetActive(false);
-                isIgnite = !isIgnite;
                 LampionRidleHandler.ActivateLampion(gameObject.name);
+                audioOpen.Play();
             }
+            isIgnite = !isIgnite;
+            lampionOn.SetActive(isIgnite);
         }
     }
 
