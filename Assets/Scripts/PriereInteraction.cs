@@ -1,18 +1,17 @@
 using System.Collections;
-using System.Collections.Generic;
+using System.Collections.Generic; 
 using UnityEngine;
 
 public class PriereInteraction : MonoBehaviour
 {
-    private bool inBellRange = false;
+    private bool inPrayRange = false;
 
     // Update is called once per frame
     void Update()
     {
-        if (inBellRange && Input.GetKeyDown(KeyCode.E))
+        if (inPrayRange && Input.GetKeyDown(KeyCode.E))
         {
-            //start animation to pray
-            Debug.Log("You prayed the holy god");
+            PriereRidleHandler.PriereValidation(gameObject.name);
         }
     }
 
@@ -20,7 +19,7 @@ public class PriereInteraction : MonoBehaviour
     {
         if (collision.gameObject.name == "Player")
         {
-            inBellRange = true;
+            inPrayRange = true;
         }
     }
 
@@ -28,7 +27,7 @@ public class PriereInteraction : MonoBehaviour
     {
         if (collision.gameObject.name == "Player")
         {
-            inBellRange = false;
+            inPrayRange = false;
         }
     }
 }

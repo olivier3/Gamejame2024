@@ -4,9 +4,9 @@ using UnityEngine;
 
 public class PriereRidleHandler : MonoBehaviour
 {
-    private const string goodPray = "Meditation";
+    private const string goodPray = "PriereMeditation";
 
-    public void PriereValidation(string nomPriere)
+    public static void PriereValidation(string nomPriere)
     {
         if (nomPriere.Equals(goodPray))
         {
