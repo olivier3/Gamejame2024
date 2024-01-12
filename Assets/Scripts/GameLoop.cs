@@ -11,6 +11,7 @@ public class GameLoop : MonoBehaviour
     private bool passwordSuccess = false;
     private bool chestSuccess = false;
     private int ritualStepCompleted = 0;
+    private bool hasChestKey = false;
     public bool AscendStateReached { get; private set; } = false;
 
     private static GameLoop _instance;
@@ -127,5 +128,10 @@ public class GameLoop : MonoBehaviour
         {
             AscendStateReached = true;
         }
+    }
+
+    public void PickUpChestKey()
+    {
+        hasChestKey = true;
     }
 }

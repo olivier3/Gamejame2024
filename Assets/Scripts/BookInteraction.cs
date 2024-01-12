@@ -39,6 +39,7 @@ public class BookInteraction : MonoBehaviour
     {
         if (collision.gameObject.name == "Player")
         {
+            text.text = StoryText.texts[textKey + "1"];
             inRange = true;
         }
     }
