@@ -672,9 +672,9 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 359123874}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 1}
-  m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 636.4706, y: -177.06421}
+  m_AnchorMin: {x: 0.5, y: 1}
+  m_AnchorMax: {x: 0.5, y: 1}
+  m_AnchoredPosition: {x: -19.529419, y: -177.06421}
   m_SizeDelta: {x: 299.706, y: 63.272}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &336858774
@@ -906,7 +906,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2427074384924289388, guid: 07a2129c1f8834c4b8503bc3abafde92, type: 3}
       propertyPath: m_AnchorMax.y
-      value: 0.5
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2427074384924289388, guid: 07a2129c1f8834c4b8503bc3abafde92, type: 3}
       propertyPath: m_AnchorMin.x
@@ -914,7 +914,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2427074384924289388, guid: 07a2129c1f8834c4b8503bc3abafde92, type: 3}
       propertyPath: m_AnchorMin.y
-      value: 0.5
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2427074384924289388, guid: 07a2129c1f8834c4b8503bc3abafde92, type: 3}
       propertyPath: m_SizeDelta.x
@@ -922,7 +922,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2427074384924289388, guid: 07a2129c1f8834c4b8503bc3abafde92, type: 3}
       propertyPath: m_SizeDelta.y
-      value: 58.1407
+      value: 58.140686
       objectReference: {fileID: 0}
     - target: {fileID: 2427074384924289388, guid: 07a2129c1f8834c4b8503bc3abafde92, type: 3}
       propertyPath: m_LocalPosition.x
@@ -958,7 +958,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2427074384924289388, guid: 07a2129c1f8834c4b8503bc3abafde92, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -87
+      value: -379
       objectReference: {fileID: 0}
     - target: {fileID: 2427074384924289388, guid: 07a2129c1f8834c4b8503bc3abafde92, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -971,6 +971,22 @@ PrefabInstance:
     - target: {fileID: 2427074384924289388, guid: 07a2129c1f8834c4b8503bc3abafde92, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3440537033780651638, guid: 07a2129c1f8834c4b8503bc3abafde92, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3440537033780651638, guid: 07a2129c1f8834c4b8503bc3abafde92, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 198614040}
+    - target: {fileID: 3440537033780651638, guid: 07a2129c1f8834c4b8503bc3abafde92, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: QuitGame
+      objectReference: {fileID: 0}
+    - target: {fileID: 3440537033780651638, guid: 07a2129c1f8834c4b8503bc3abafde92, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: MainMenu, Assembly-CSharp
       objectReference: {fileID: 0}
     - target: {fileID: 5595207019395089098, guid: 07a2129c1f8834c4b8503bc3abafde92, type: 3}
       propertyPath: m_text
@@ -1007,7 +1023,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2427074384924289388, guid: 07a2129c1f8834c4b8503bc3abafde92, type: 3}
       propertyPath: m_AnchorMax.y
-      value: 0.5
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2427074384924289388, guid: 07a2129c1f8834c4b8503bc3abafde92, type: 3}
       propertyPath: m_AnchorMin.x
@@ -1015,7 +1031,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2427074384924289388, guid: 07a2129c1f8834c4b8503bc3abafde92, type: 3}
       propertyPath: m_AnchorMin.y
-      value: 0.5
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2427074384924289388, guid: 07a2129c1f8834c4b8503bc3abafde92, type: 3}
       propertyPath: m_SizeDelta.x
@@ -1023,7 +1039,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2427074384924289388, guid: 07a2129c1f8834c4b8503bc3abafde92, type: 3}
       propertyPath: m_SizeDelta.y
-      value: 58.1407
+      value: 58.140686
       objectReference: {fileID: 0}
     - target: {fileID: 2427074384924289388, guid: 07a2129c1f8834c4b8503bc3abafde92, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1059,7 +1075,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2427074384924289388, guid: 07a2129c1f8834c4b8503bc3abafde92, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 0
+      value: -292
       objectReference: {fileID: 0}
     - target: {fileID: 2427074384924289388, guid: 07a2129c1f8834c4b8503bc3abafde92, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -1072,6 +1088,22 @@ PrefabInstance:
     - target: {fileID: 2427074384924289388, guid: 07a2129c1f8834c4b8503bc3abafde92, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3440537033780651638, guid: 07a2129c1f8834c4b8503bc3abafde92, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3440537033780651638, guid: 07a2129c1f8834c4b8503bc3abafde92, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 198614040}
+    - target: {fileID: 3440537033780651638, guid: 07a2129c1f8834c4b8503bc3abafde92, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: PlayGame
+      objectReference: {fileID: 0}
+    - target: {fileID: 3440537033780651638, guid: 07a2129c1f8834c4b8503bc3abafde92, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: MainMenu, Assembly-CSharp
       objectReference: {fileID: 0}
     - target: {fileID: 5595207019395089098, guid: 07a2129c1f8834c4b8503bc3abafde92, type: 3}
       propertyPath: m_text
