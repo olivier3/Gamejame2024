@@ -5,6 +5,7 @@ using UnityEngine;
 public class ChestInteraction : MonoBehaviour
 {
     private bool inChestRange = false;
+    private bool opened = false;
     [SerializeField]
     private GameObject chestClosed;
     [SerializeField]
@@ -17,8 +18,9 @@ public class ChestInteraction : MonoBehaviour
     {
         if (inChestRange && Input.GetKeyDown(KeyCode.E))
         {
-            if (GameLoop.Instance.HasChestKey)
+            if (GameLoop.Instance.HasChestKey && !opened)
             {
+                opened = true;
                 audioSource.Play();
                 GameLoop.Instance.FailChestInteraction();
                 chestClosed.SetActive(false);
