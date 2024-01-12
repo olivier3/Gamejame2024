@@ -10505,6 +10505,11 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2048228386}
   m_CullTransparentMesh: 1
+--- !u!95 &2059315743 stripped
+Animator:
+  m_CorrespondingSourceObject: {fileID: 6342412401366245531, guid: 83d55c907ddbd924ea81ae51c61da4cc, type: 3}
+  m_PrefabInstance: {fileID: 1067802871}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &2077507040
 GameObject:
   m_ObjectHideFlags: 0
@@ -10752,6 +10757,7 @@ MonoBehaviour:
   sacrificedGameObject: {fileID: 1077217812}
   blackScreen: {fileID: 580088993}
   thunder: {fileID: 1504872825}
+  playerAnimator: {fileID: 2059315743}
 --- !u!114 &2097795060
 MonoBehaviour:
   m_ObjectHideFlags: 0

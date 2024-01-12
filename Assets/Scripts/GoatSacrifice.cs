@@ -13,6 +13,8 @@ public class GoatSacrifice : MonoBehaviour
     private GameObject blackScreen;
     [SerializeField]
     private AudioSource thunder;
+    [SerializeField]
+    private Animator playerAnimator;
     // Update is called once per frame
     void Update()
     {
@@ -26,6 +28,10 @@ public class GoatSacrifice : MonoBehaviour
             sacrificedGameObject.SetActive(true);
         
     }
+        if (inZone && Input.GetKeyDown(KeyCode.F))
+        {
+            playerAnimator.SetTrigger("IsPetting");
+        }
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
