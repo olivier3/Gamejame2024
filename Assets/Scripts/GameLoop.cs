@@ -15,7 +15,7 @@ public class GameLoop : MonoBehaviour
     public bool AscendStateReached { get; private set; } = false;
 
     private static GameLoop _instance;
-    private bool sacrificeDone = false;
+    public bool sacrificeDone = false;
 
 
     public static GameLoop Instance

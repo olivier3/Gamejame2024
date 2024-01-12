@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class BossInteraction : MonoBehaviour
 {
@@ -15,6 +16,7 @@ public class BossInteraction : MonoBehaviour
     private bool inRange = false;
     public bool Movement = true;
     bool opened = false;
+    bool victory = false;
 
 
     private void Update()
@@ -33,6 +35,14 @@ public class BossInteraction : MonoBehaviour
                 index = 0;
                 opened = false;
                 UI.SetActive(false);
+                if (victory)
+                {
+                    SceneManager.LoadScene("Victoire");
+                }
+                else
+                {
+                    SceneManager.LoadScene("GameOver");
+                }
             }
         }
     }
@@ -69,6 +79,7 @@ public class BossInteraction : MonoBehaviour
             else
             {
                 textKeys.Add("BonneFin");
+                victory = true;
             }
         }
     }

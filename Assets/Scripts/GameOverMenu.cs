@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class EndMenu : MonoBehaviour
+public class GameOverMenu : MonoBehaviour
 {
     public void NewGame()
     {
