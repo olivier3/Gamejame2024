@@ -3,7 +3,7 @@ using UnityEngine;
 
 public class StoryText : MonoBehaviour
 {
-    public Dictionary<string, string> texts = new()
+    public static Dictionary<string, string> texts = new()
     {
         // Pour cette scene, l'épreuve est de chercher a sonner la cloche plusieurs fois. Les indices permettent d'indiquer au joueurs le nombre de fois qu'il doit sonner
         // Pour cette enigme, il faut qu'une pleine lune soit visible quelque part dans le niveau, afin de pieger le joueur a ne sonner que 2 fois.

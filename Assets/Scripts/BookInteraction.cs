@@ -2,47 +2,56 @@ using System.Collections;
 using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
+using UnityEngine.UIElements;
 
 public class BookInteraction : MonoBehaviour
 {
-    /*
-    [SerializeField]
-    private string collisionTag;
+    
     [SerializeField]
     private string textKey;
     [SerializeField]
-    private GameObject touche;
-    [SerializeField]
     private GameObject UI;
     [SerializeField]
-    private TextMeshPro text;
+    private TMP_Text text;
+    private bool inRange = false;
+    private bool opened = false;
 
-    private void OnCollisionEnter2D(Collision2D collision)
+
+    private void Start()
     {
-        if (collision.collider.tag == collisionTag)
+        text.text = StoryText.texts[textKey + "1"];
+    }
+
+    private void Update()
+    {
+
+        if (opened && inRange && Input.GetKeyDown(KeyCode.E))
         {
-            text.text = StoryText.texts[textKey];
-            touche.SetActive(true);
-            if (Input.GetKeyDown(KeyCode.E) && UI.active)
-            {
-                touche.SetActive(true);
-                UI.SetActive(false);
-            }
-            else
-            {
-                touche.SetActive(false);
-                UI.SetActive(true);
-            }
+            text.text = StoryText.texts[textKey + "2"];
+        }
+        else if (inRange && Input.GetKeyDown(KeyCode.E))
+        {
+            opened = true;
+            UI.SetActive(true);
+        }
+    }
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        if (collision.gameObject.name == "Player")
+        {
+            inRange = true;
         }
     }
 
-    private void OnCollisionExit2D(Collision2D collision)
+    private void OnTriggerExit2D(Collider2D collision)
     {
-        if (collision.collider.tag == collisionTag)
+        if (collision.gameObject.name == "Player")
         {
-            touche.SetActive(false);
+            inRange = false;
+            opened = false;
             UI.SetActive(false);
+            text.text = StoryText.texts[textKey + "1"];
         }
     }
- */   
+
 }
