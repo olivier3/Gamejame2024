@@ -916,25 +916,24 @@ PrefabInstance:
     - target: {fileID: 2618235740149067443, guid: d6537a4903a4020429b7657c7bf4d8ec, type: 3}
       propertyPath: pauseMenuGameObject
       value: 
-      objectReference: {fileID: 484198265}
+      objectReference: {fileID: 1314529431}
     - target: {fileID: 3237393416479987937, guid: d6537a4903a4020429b7657c7bf4d8ec, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6736375268873093113, guid: d6537a4903a4020429b7657c7bf4d8ec, type: 3}
       propertyPath: m_Name
       value: Pause
+      objectReference: {fileID: 0}
+    - target: {fileID: 8534463622097608212, guid: d6537a4903a4020429b7657c7bf4d8ec, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d6537a4903a4020429b7657c7bf4d8ec, type: 3}
---- !u!1 &484198265 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 6736375268873093113, guid: d6537a4903a4020429b7657c7bf4d8ec, type: 3}
-  m_PrefabInstance: {fileID: 484198264}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &493896288
 GameObject:
   m_ObjectHideFlags: 0
@@ -2683,6 +2682,11 @@ RectTransform:
   m_AnchoredPosition: {x: 89, y: 10}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!1 &1314529431 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8534463622097608212, guid: d6537a4903a4020429b7657c7bf4d8ec, type: 3}
+  m_PrefabInstance: {fileID: 484198264}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1353855851
 PrefabInstance:
   m_ObjectHideFlags: 0
