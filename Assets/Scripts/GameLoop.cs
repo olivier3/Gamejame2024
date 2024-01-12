@@ -4,14 +4,19 @@ using UnityEngine;
 
 public class GameLoop : MonoBehaviour
 {
-    private bool bellSuccess = false;
-    private bool lampionSuccess = false;
-    private bool priereSuccess = false;
-    private bool sacrificeSuccess = false;
-    private bool passwordSuccess = false;
+    public bool BellSuccess { get; private set; } = false;
+    public bool LampionSuccess { get; private set; } = false;
+    public bool PriereSuccess { get; private set; } = false;
+    public bool SacrificeSuccess { get; private set; } = false;
+    public bool PasswordSuccess { get; private set; } = false;
     private int ritualStepCompleted = 0;
+<<<<<<< Updated upstream
     public bool sacrificeDone = false;
     public bool hasChestKey { get; private set; } = false;
+=======
+    public bool HasChestKey { get; private set; } = false;
+    public bool ChestOpened { get; private set; } = false;
+>>>>>>> Stashed changes
     public bool AscendStateReached { get; private set; } = false;
 
     private static GameLoop _instance;
@@ -34,19 +39,21 @@ public class GameLoop : MonoBehaviour
 
     public void ResetAllState()
     {
-        bellSuccess = false;
-        lampionSuccess = false;
-        priereSuccess = false;
-        sacrificeSuccess = false;
-        passwordSuccess = false;
+        BellSuccess = false;
+        LampionSuccess = false;
+        PriereSuccess = false;
+        SacrificeSuccess = false;
+        PasswordSuccess = false;
         ritualStepCompleted = 1;
-        hasChestKey = false;
+        HasChestKey = false;
         AscendStateReached = false;
     }
 
     public void PickUpChestKey()
     {
-        hasChestKey = true;
+        HasChestKey = true;
+        ritualStepCompleted++;
+        RitualValidation();
     }
 
     public void Sacrifice()
@@ -58,15 +65,15 @@ public class GameLoop : MonoBehaviour
     {
         if (result)
         {
-            bellSuccess = true;
+            BellSuccess = true;
             ritualStepCompleted++;
             RitualValidation();
         }
         else
         {
-            if (bellSuccess && ritualStepCompleted > 1)
+            if (BellSuccess && ritualStepCompleted > 1)
             {
-                bellSuccess = false;
+                BellSuccess = false;
                 ritualStepCompleted--;
                 RitualValidation();
             }
@@ -77,15 +84,15 @@ public class GameLoop : MonoBehaviour
     {
         if (result)
         {
-            lampionSuccess = true;
+            LampionSuccess = true;
             ritualStepCompleted++;
             RitualValidation();
         }
         else
         {
-            if (lampionSuccess && ritualStepCompleted > 1)
+            if (LampionSuccess && ritualStepCompleted > 1)
             {
-                lampionSuccess = false;
+                LampionSuccess = false;
                 ritualStepCompleted--;
                 RitualValidation();
             }
@@ -96,15 +103,15 @@ public class GameLoop : MonoBehaviour
     {
         if (result)
         {
-            priereSuccess = true;
+            PriereSuccess = true;
             ritualStepCompleted++;
             RitualValidation();
         }
         else
         {
-            if (priereSuccess && ritualStepCompleted > 1)
+            if (PriereSuccess && ritualStepCompleted > 1)
             {
-                priereSuccess = false;
+                PriereSuccess = false;
                 ritualStepCompleted--;
                 RitualValidation();
             }
@@ -113,20 +120,21 @@ public class GameLoop : MonoBehaviour
 
     public void AchieveSacrificeInteraction()
     {
-        sacrificeSuccess = true;
+        SacrificeSuccess = true;
         ritualStepCompleted++;
         RitualValidation();
     }
 
     public void AchievePasswordInteraction()
     {
-        passwordSuccess = true;
+        PasswordSuccess = true;
         ritualStepCompleted++;
         RitualValidation();
     }
 
     public void FailChestInteraction()
     {
+        ChestOpened = true;
         ritualStepCompleted--;
         RitualValidation();
     }

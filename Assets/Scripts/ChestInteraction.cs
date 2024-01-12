@@ -17,7 +17,7 @@ public class ChestInteraction : MonoBehaviour
     {
         if (inChestRange && Input.GetKeyDown(KeyCode.E))
         {
-            if (GameLoop.Instance.hasChestKey)
+            if (GameLoop.Instance.HasChestKey)
             {
                 audioSource.Play();
                 GameLoop.Instance.FailChestInteraction();
