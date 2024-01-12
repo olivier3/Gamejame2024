@@ -19,6 +19,8 @@ public class BossInteraction : MonoBehaviour
     bool victory = false;
     [SerializeField]
     private AudioSource audio;
+    [SerializeField]
+    private Animator guruAnimator;
 
 
     private void Update()
@@ -27,6 +29,7 @@ public class BossInteraction : MonoBehaviour
         {
             audio.Play();
             UI.SetActive(true);
+            guruAnimator.SetTrigger("IsEnding");
 
             if (!opened)
             {
