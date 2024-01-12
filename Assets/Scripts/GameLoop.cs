@@ -9,13 +9,8 @@ public class GameLoop : MonoBehaviour
     private bool priereSuccess = false;
     private bool sacrificeSuccess = false;
     private bool passwordSuccess = false;
-<<<<<<< Updated upstream
-    private bool chestSuccess = false;
-    private int ritualStepCompleted = 0;
-=======
     private bool chestSuccess = true;
-    private int ritualStepCompleted = 1;
->>>>>>> Stashed changes
+    private int ritualStepCompleted = 0;
     private bool hasChestKey = false;
     public bool AscendStateReached { get; private set; } = false;
 
@@ -138,10 +133,5 @@ public class GameLoop : MonoBehaviour
         {
             AscendStateReached = true;
         }
-    }
-
-    public void PickUpChestKey()
-    {
-        hasChestKey = true;
     }
 }
