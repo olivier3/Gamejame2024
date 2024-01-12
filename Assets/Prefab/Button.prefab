@@ -36,8 +36,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 278.0125, y: 89.9885}
+  m_AnchoredPosition: {x: 1.0273, y: 15.9239}
+  m_SizeDelta: {x: 275.9578, y: 58.1407}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &1748075458518462701
 CanvasRenderer:
@@ -106,9 +106,9 @@ MonoBehaviour:
     m_ColorMultiplier: 1
     m_FadeDuration: 0.1
   m_SpriteState:
-    m_HighlightedSprite: {fileID: 21300000, guid: 1e06ff6993a011b4ca64c914c9b5bea2, type: 3}
-    m_PressedSprite: {fileID: 21300000, guid: c4eb83f25ed7d364093fce8029cb3c92, type: 3}
-    m_SelectedSprite: {fileID: 21300000, guid: 1e06ff6993a011b4ca64c914c9b5bea2, type: 3}
+    m_HighlightedSprite: {fileID: 21300000, guid: 136ee031654f4bd4f9a5756cd2c0e005, type: 3}
+    m_PressedSprite: {fileID: 21300000, guid: 1c2cab8fc01bd984ca215c49ad8cd76d, type: 3}
+    m_SelectedSprite: {fileID: 21300000, guid: 136ee031654f4bd4f9a5756cd2c0e005, type: 3}
     m_DisabledSprite: {fileID: 10907, guid: 0000000000000000f000000000000000, type: 0}
   m_AnimationTriggers:
     m_NormalTrigger: Normal
@@ -200,8 +200,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Zone 1
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 26ee64af3df481a4698dc5e2b82f02f9, type: 2}
+  m_sharedMaterial: {fileID: 6087658004004038942, guid: 26ee64af3df481a4698dc5e2b82f02f9, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
