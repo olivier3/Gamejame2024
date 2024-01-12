@@ -2746,6 +2746,10 @@ PrefabInstance:
       propertyPath: m_Camera
       value: 
       objectReference: {fileID: 1519597511}
+    - target: {fileID: 2365453658629022597, guid: d6537a4903a4020429b7657c7bf4d8ec, type: 3}
+      propertyPath: m_SortingOrder
+      value: 32767
+      objectReference: {fileID: 0}
     - target: {fileID: 2618235740149067443, guid: d6537a4903a4020429b7657c7bf4d8ec, type: 3}
       propertyPath: pauseMenuGameObject
       value: 
