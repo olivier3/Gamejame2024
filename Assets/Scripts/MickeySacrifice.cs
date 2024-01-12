@@ -13,12 +13,15 @@ public class MickeySacrifice : MonoBehaviour
     private GameObject sacrificedGameObject;
     [SerializeField]
     private GameObject blackScreen;
+    [SerializeField]
+    private AudioSource thunder;
     // Update is called once per frame
     void Update()
     {
         if (inZone && Input.GetKeyDown(KeyCode.E) && !GameLoop.Instance.sacrificeDone)
         {
             Destroy(mickey);
+            thunder.Play();
             GameLoop.Instance.Sacrifice();
             blackScreen.SetActive(true);
             Invoke("Disappear", 1);
