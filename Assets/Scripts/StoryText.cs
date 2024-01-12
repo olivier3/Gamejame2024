@@ -23,9 +23,9 @@ public class StoryText : MonoBehaviour
         {"Discussion1_3", "Es-tu fou ? Notre grand maitre est vegetarien, il ne faudrait pas attiser sa colere." },
 
         // Dans cette scene, le joueur doit effectuer la bonne priere. Des dessins ou des artworks sur les murs pour trouver comment prier
-        {"PriereChoix1", "Voulez-vous effectuer une danse nuptiale ?" },
-        {"PriereChoix2", "Voulez-vous rester immobile dans l'ombre ?" },
-        {"PriereChoix3", "Voulez-vous vous assoir pour mediter ?" },
+        {"PriereChoix1", "Voulez-vous hocher la tête a sa terreur ?" },
+        {"PriereChoix2", "Voulez-vous vous prosterner devant sa sainteté ?" },
+        {"PriereChoix3", "Voulez-vous vous accroupir devant sa grandeur ?" },
 
         // Scene des lampions, le joueur va devoir allumer certains lampions.
         {"Lampions1", "J'ai besoin d'aide pour allumer ces chandelles. Je ne me souviens plus lesquelles je dois allumer." },

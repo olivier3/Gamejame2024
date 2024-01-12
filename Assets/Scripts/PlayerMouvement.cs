@@ -12,6 +12,8 @@ public class PlayerMouvement : MonoBehaviour
     [SerializeField]
     private Animator anim;
 
+    [HideInInspector]
+    public bool canMove = true;
     private bool isMoving = false;
     private float offsetX = 0f;
     private float offsetY = 0f;
@@ -25,41 +27,45 @@ public class PlayerMouvement : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        float horizontal = Input.GetAxis("Horizontal");
-        float vertical = Input.GetAxis("Vertical");
-
-        if (vertical != 0)
+        if (canMove)
         {
-            anim.SetFloat("MoveY", vertical);
-            offsetY = vertical * 0.01f;
-            offsetX = 0f;
-            transform.position += new Vector3(0, vertical) * speed * Time.deltaTime;
-        }
 
-        if (horizontal != 0)
-        {
-            anim.SetFloat("MoveX", horizontal);
-            offsetX = horizontal * 0.01f;
-            offsetY = 0f;
-            transform.position += new Vector3(horizontal, 0) * speed * Time.deltaTime;
-        }
 
-        if (horizontal + vertical == 0)
-        {
-            anim.SetFloat("MoveY", vertical + offsetY);
-            anim.SetFloat("MoveX", horizontal + offsetX);
-        }
+            float horizontal = Input.GetAxis("Horizontal");
+            float vertical = Input.GetAxis("Vertical");
 
-        if (horizontal < 0)
-        {
-            anim.SetTrigger("IsLR");
-            this.gameObject.transform.localScale = new Vector3(-9f, 9f, 1f);
-        }
-        if (horizontal > 0)
-        {
-            anim.SetTrigger("IsLR");
-            this.gameObject.transform.localScale = new Vector3(9f, 9f, 1f);
-        }
+            if (vertical != 0)
+            {
+                anim.SetFloat("MoveY", vertical);
+                offsetY = vertical * 0.01f;
+                offsetX = 0f;
+                transform.position += new Vector3(0, vertical) * speed * Time.deltaTime;
+            }
 
+            if (horizontal != 0)
+            {
+                anim.SetFloat("MoveX", horizontal);
+                offsetX = horizontal * 0.01f;
+                offsetY = 0f;
+                transform.position += new Vector3(horizontal, 0) * speed * Time.deltaTime;
+            }
+
+            if (horizontal + vertical == 0)
+            {
+                anim.SetFloat("MoveY", vertical + offsetY);
+                anim.SetFloat("MoveX", horizontal + offsetX);
+            }
+
+            if (horizontal < 0)
+            {
+                anim.SetTrigger("IsLR");
+                this.gameObject.transform.localScale = new Vector3(-9f, 9f, 1f);
+            }
+            if (horizontal > 0)
+            {
+                anim.SetTrigger("IsLR");
+                this.gameObject.transform.localScale = new Vector3(9f, 9f, 1f);
+            }
+        }
     }
 }

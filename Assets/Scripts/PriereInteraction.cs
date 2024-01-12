@@ -5,6 +5,14 @@ using UnityEngine;
 public class PriereInteraction : MonoBehaviour
 {
     private bool inPrayRange = false;
+    private GameObject player;
+    private Animator animator;
+
+    private void Start()
+    {
+        player = GameObject.FindGameObjectWithTag("Player");
+        animator = player.GetComponent<Animator>();
+    }
 
     // Update is called once per frame
     void Update()
