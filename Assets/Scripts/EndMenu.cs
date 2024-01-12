@@ -5,9 +5,10 @@ using UnityEngine.SceneManagement;
 
 public class EndMenu : MonoBehaviour
 {
-    public void PlayGame()
+    public void NewGame()
     {
         PlayerPrefs.DeleteAll();
+        GameLoop.Instance.ResetAllState();
         SceneManager.LoadScene(1); 
     }
 

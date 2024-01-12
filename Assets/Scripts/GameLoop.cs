@@ -10,16 +10,14 @@ public class GameLoop : MonoBehaviour
     public bool SacrificeSuccess { get; private set; } = false;
     public bool PasswordSuccess { get; private set; } = false;
     private int ritualStepCompleted = 0;
-<<<<<<< Updated upstream
-    public bool sacrificeDone = false;
-    public bool hasChestKey { get; private set; } = false;
-=======
     public bool HasChestKey { get; private set; } = false;
     public bool ChestOpened { get; private set; } = false;
->>>>>>> Stashed changes
     public bool AscendStateReached { get; private set; } = false;
 
     private static GameLoop _instance;
+    private bool sacrificeDone = false;
+
+
     public static GameLoop Instance
     {
         get { return _instance; }
