@@ -9,8 +9,13 @@ public class GameLoop : MonoBehaviour
     private bool priereSuccess = false;
     private bool sacrificeSuccess = false;
     private bool passwordSuccess = false;
+<<<<<<< Updated upstream
     private bool chestSuccess = false;
     private int ritualStepCompleted = 0;
+=======
+    private bool chestSuccess = true;
+    private int ritualStepCompleted = 1;
+>>>>>>> Stashed changes
     private bool hasChestKey = false;
     public bool AscendStateReached { get; private set; } = false;
 
@@ -44,6 +49,11 @@ public class GameLoop : MonoBehaviour
         AscendStateReached = false;
     }
 
+    public void PickUpChestKey()
+    {
+        hasChestKey = true;
+    }
+
     public void AchieveBellInteraction(bool result)
     {
         if (result)
@@ -54,7 +64,7 @@ public class GameLoop : MonoBehaviour
         }
         else
         {
-            if (bellSuccess == true && ritualStepCompleted > 0)
+            if (bellSuccess == true && ritualStepCompleted > 1)
             {
                 bellSuccess = false;
                 ritualStepCompleted--;
@@ -73,7 +83,7 @@ public class GameLoop : MonoBehaviour
         }
         else
         {
-            if (lampionSuccess == true && ritualStepCompleted > 0)
+            if (lampionSuccess == true && ritualStepCompleted > 1)
             {
                 lampionSuccess = false;
                 ritualStepCompleted--;
@@ -92,7 +102,7 @@ public class GameLoop : MonoBehaviour
         }
         else
         {
-            if (priereSuccess == true && ritualStepCompleted > 0)
+            if (priereSuccess == true && ritualStepCompleted > 1)
             {
                 priereSuccess = false;
                 ritualStepCompleted--;
