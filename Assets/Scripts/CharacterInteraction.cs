@@ -15,6 +15,8 @@ public class CharacterInteraction : MonoBehaviour
     private bool inRange = false;
     private bool opened = false;
     public bool Movement = true;
+    [SerializeField]
+    private AudioSource audio;
 
     private void Update()
     {
@@ -24,6 +26,7 @@ public class CharacterInteraction : MonoBehaviour
             if (!opened)
             {
                 opened = true;
+                audio.Play();
             }
             else if (index < textKeys.Length - 1)
             {

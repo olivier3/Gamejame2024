@@ -9,6 +9,8 @@ public class BellInteraction : MonoBehaviour
 {
     private int bellActivationCount = 0;
     private bool inBellRange = false;
+    [SerializeField]
+    private AudioSource bellSound;
 
 
     // Update is called once per frame
@@ -17,6 +19,7 @@ public class BellInteraction : MonoBehaviour
         if (inBellRange && Input.GetKeyDown(KeyCode.E))
         {
             bellActivationCount++;
+            bellSound.Play();
         }
     }
 
