@@ -14,12 +14,12 @@ public class GoatSacrifice : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (inZone && Input.GetKeyDown(KeyCode.E) && GameLoop.Instance.sacrificeDone)
+        if (inZone && Input.GetKeyDown(KeyCode.E) && !GameLoop.Instance.sacrificeDone)
         {
             Destroy(goat);
             GameLoop.Instance.Sacrifice();
             blackScreen.SetActive(true);
-            Invoke("Disappear", 1);
+             Invoke("Disappear", 1);
             sacrificedGameObject.SetActive(true);
         
     }
@@ -27,7 +27,7 @@ public class GoatSacrifice : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.gameObject.tag == "player")
+        if (collision.gameObject.tag == "Player")
         {
             inZone = true;
         }

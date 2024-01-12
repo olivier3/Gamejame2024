@@ -13,9 +13,9 @@ public class UIFade_Sacrifice : MonoBehaviour
 
 
 
-    private void OnTriggerEnter2D(Collider2D collision)
+   private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.gameObject.name == "Player")
+        if (collision.gameObject.name == "Player" && !GameLoop.Instance.sacrificeDone)
         {
 
             StartCoroutine(FadeImage(false));

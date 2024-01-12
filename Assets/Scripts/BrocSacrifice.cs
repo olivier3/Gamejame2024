@@ -14,7 +14,7 @@ public class BrocSacrifice : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (inZone && Input.GetKeyDown(KeyCode.E) && GameLoop.Instance.sacrificeDone)
+        if (inZone && Input.GetKeyDown(KeyCode.E) && !GameLoop.Instance.sacrificeDone)
         {
             Destroy(broc);
             GameLoop.Instance.Sacrifice();
@@ -22,13 +22,13 @@ public class BrocSacrifice : MonoBehaviour
             blackScreen.SetActive(true);
             Invoke("Disappear", 1);
             sacrificedGameObject.SetActive(true);
-        
-    }
+
+        }
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.gameObject.tag == "player")
+        if (collision.gameObject.tag == "Player")
         {
             inZone = true;
         }
@@ -39,7 +39,7 @@ public class BrocSacrifice : MonoBehaviour
         if (collision.gameObject.name == "Player")
         {
             inZone = false;
-        }
+         }
     }
     private void Disappear()
     {

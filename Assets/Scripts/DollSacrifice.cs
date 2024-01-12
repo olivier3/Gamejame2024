@@ -15,7 +15,7 @@ public class DollSacrifice : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if(inZone && Input.GetKeyDown(KeyCode.E) && GameLoop.Instance.sacrificeDone)
+        if(inZone && Input.GetKeyDown(KeyCode.E) && !GameLoop.Instance.sacrificeDone)
         {
             Destroy(doll);
             GameLoop.Instance.Sacrifice();
@@ -27,7 +27,7 @@ public class DollSacrifice : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.gameObject.tag == "player")
+        if (collision.gameObject.tag == "Player")
         {
             inZone = true;
         }
@@ -41,7 +41,7 @@ public class DollSacrifice : MonoBehaviour
         }
     }
 
-    private void Disappear()
+    void Disappear()
     {
         blackScreen.SetActive(false);
     }
