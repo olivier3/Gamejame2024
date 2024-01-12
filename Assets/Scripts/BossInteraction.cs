@@ -17,12 +17,15 @@ public class BossInteraction : MonoBehaviour
     public bool Movement = true;
     bool opened = false;
     bool victory = false;
+    [SerializeField]
+    private AudioSource audio;
 
 
     private void Update()
     {
         if (Input.GetKeyDown(KeyCode.E) && inRange)
         {
+            audio.Play();
             UI.SetActive(true);
 
             if (!opened)
