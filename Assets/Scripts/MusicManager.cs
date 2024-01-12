@@ -6,16 +6,21 @@ public class MusicManager : MonoBehaviour
 {
     [SerializeField]
     private List<AudioSource> musicSources;
+    private bool playing = false;
 
     private int srcIndex = 0;
     void Awake()
     {
-        musicSources[srcIndex].Play();
-        DontDestroyOnLoad(gameObject);
-
-        if(GameObject.FindGameObjectsWithTag("MusicManager").Length > 1 )
+        if(!playing)
         {
-            Destroy(gameObject);
+            playing = true;
+            musicSources[srcIndex].Play();
+            DontDestroyOnLoad(gameObject);
+
+            if (GameObject.FindGameObjectsWithTag("MusicManager").Length > 1)
+            {
+                Destroy(gameObject);
+            }
         }
     }
 

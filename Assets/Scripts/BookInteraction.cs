@@ -15,6 +15,8 @@ public class BookInteraction : MonoBehaviour
     private TMP_Text text;
     private bool inRange = false;
     private bool opened = false;
+    [SerializeField]
+    private AudioSource audio;
 
 
     private void Start()
@@ -27,10 +29,12 @@ public class BookInteraction : MonoBehaviour
 
         if (opened && inRange && Input.GetKeyDown(KeyCode.E))
         {
+            audio.Play();
             text.text = StoryText.texts[textKey + "2"];
         }
         else if (inRange && Input.GetKeyDown(KeyCode.E))
         {
+            audio.Play();
             opened = true;
             UI.SetActive(true);
         }

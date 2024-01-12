@@ -8120,7 +8120,8 @@ MonoBehaviour:
   UI: {fileID: 57398277}
   text: {fileID: 857401511}
   Movement: 1
-  audio: {fileID: 1884988464}
+  audio:
+  - {fileID: 1884988464}
 --- !u!82 &1884988464
 AudioSource:
   m_ObjectHideFlags: 0

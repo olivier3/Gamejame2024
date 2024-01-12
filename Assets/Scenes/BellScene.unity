@@ -4506,7 +4506,8 @@ MonoBehaviour:
   UI: {fileID: 1861587961}
   text: {fileID: 793652105}
   Movement: 1
-  audio: {fileID: 626248938}
+  audio:
+  - {fileID: 626248938}
 --- !u!61 &626248937
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -6051,7 +6052,8 @@ MonoBehaviour:
   UI: {fileID: 1861587961}
   text: {fileID: 793652105}
   Movement: 1
-  audio: {fileID: 1149202824}
+  audio:
+  - {fileID: 1149202824}
 --- !u!82 &1149202824
 AudioSource:
   m_ObjectHideFlags: 0
@@ -7643,7 +7645,8 @@ MonoBehaviour:
   UI: {fileID: 1861587961}
   text: {fileID: 793652105}
   Movement: 1
-  audio: {fileID: 1912522953}
+  audio:
+  - {fileID: 1912522953}
 --- !u!61 &1912522952
 BoxCollider2D:
   m_ObjectHideFlags: 0
