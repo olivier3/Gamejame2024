@@ -9,9 +9,8 @@ public class GameLoop : MonoBehaviour
     private bool priereSuccess = false;
     private bool sacrificeSuccess = false;
     private bool passwordSuccess = false;
-    private bool chestSuccess = true;
     private int ritualStepCompleted = 0;
-    private bool hasChestKey = false;
+    public bool hasChestKey { get; private set; } = false;
     public bool AscendStateReached { get; private set; } = false;
 
     private static GameLoop _instance;
@@ -39,8 +38,8 @@ public class GameLoop : MonoBehaviour
         priereSuccess = false;
         sacrificeSuccess = false;
         passwordSuccess = false;
-        chestSuccess = false;
-        ritualStepCompleted = 0;
+        ritualStepCompleted = 1;
+        hasChestKey = false;
         AscendStateReached = false;
     }
 
@@ -59,7 +58,7 @@ public class GameLoop : MonoBehaviour
         }
         else
         {
-            if (bellSuccess == true && ritualStepCompleted > 1)
+            if (bellSuccess && ritualStepCompleted > 1)
             {
                 bellSuccess = false;
                 ritualStepCompleted--;
@@ -78,7 +77,7 @@ public class GameLoop : MonoBehaviour
         }
         else
         {
-            if (lampionSuccess == true && ritualStepCompleted > 1)
+            if (lampionSuccess && ritualStepCompleted > 1)
             {
                 lampionSuccess = false;
                 ritualStepCompleted--;
@@ -97,7 +96,7 @@ public class GameLoop : MonoBehaviour
         }
         else
         {
-            if (priereSuccess == true && ritualStepCompleted > 1)
+            if (priereSuccess && ritualStepCompleted > 1)
             {
                 priereSuccess = false;
                 ritualStepCompleted--;
@@ -120,10 +119,9 @@ public class GameLoop : MonoBehaviour
         RitualValidation();
     }
 
-    public void AchieveChestInteraction()
+    public void FailChestInteraction()
     {
-        chestSuccess = true;
-        ritualStepCompleted++;
+        ritualStepCompleted--;
         RitualValidation();
     }
 
