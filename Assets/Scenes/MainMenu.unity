@@ -466,7 +466,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7342714461598661901, guid: e73a169d19c4a894fa29ed5fd6eb6c01, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: -1.2761841
+      value: -1.276123
       objectReference: {fileID: 0}
     - target: {fileID: 7342714461598661901, guid: e73a169d19c4a894fa29ed5fd6eb6c01, type: 3}
       propertyPath: m_AnchoredPosition.y
@@ -839,7 +839,7 @@ GameObject:
   - component: {fileID: 333154794}
   m_Layer: 0
   m_Name: AudioManager
-  m_TagString: Untagged
+  m_TagString: MusicManager
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
