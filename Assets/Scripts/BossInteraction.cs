@@ -69,10 +69,6 @@ public class BossInteraction : MonoBehaviour
                 {
                     textKeys.Add("FinCloche");
                 }
-                else if (!GameLoop.Instance.PriereSuccess)
-                {
-                    textKeys.Add("FinPriere");
-                }
                 else if (!GameLoop.Instance.LampionSuccess)
                 {
                     textKeys.Add("FinLampions");

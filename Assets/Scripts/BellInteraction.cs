@@ -42,7 +42,7 @@ public class BellInteraction : MonoBehaviour
 
     private void BellValidation()
     {
-        if (bellActivationCount == 3)
+        if (bellActivationCount == 2)
         {
             GameLoop.Instance.AchieveBellInteraction(true);
         }

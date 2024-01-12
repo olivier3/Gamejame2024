@@ -37,7 +37,6 @@ public class GameLoop : MonoBehaviour
 
     public void ResetAllState()
     {
-        Debug.Log("RESEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEET");
         BellSuccess = false;
         LampionSuccess = false;
         PriereSuccess = false;
@@ -101,21 +100,7 @@ public class GameLoop : MonoBehaviour
 
     public void AchievePriereInteraction(bool result)
     {
-        if (result)
-        {
-            PriereSuccess = true;
-            ritualStepCompleted++;
-            RitualValidation();
-        }
-        else
-        {
-            if (PriereSuccess && ritualStepCompleted > 1)
-            {
-                PriereSuccess = false;
-                ritualStepCompleted--;
-                RitualValidation();
-            }
-        }
+        
     }
 
     public void AchieveSacrificeInteraction()
@@ -141,7 +126,7 @@ public class GameLoop : MonoBehaviour
 
     private void RitualValidation()
     {
-        if (ritualStepCompleted >= 6)
+        if (ritualStepCompleted >= 5)
         {
             AscendStateReached = true;
         }
