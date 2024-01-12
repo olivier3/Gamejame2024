@@ -17,7 +17,8 @@ public class SceneLoader : MonoBehaviour
     {
         if (collision.gameObject.CompareTag("Player"))
         {
-            audio.Play();
+            if (audio != null && !audio.isPlaying)
+                audio.Play();
             if (respawn != null)
             {
                 PlayerPrefs.SetFloat("X", respawn.transform.position.x);

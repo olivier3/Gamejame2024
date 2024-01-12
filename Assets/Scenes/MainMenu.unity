@@ -508,7 +508,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 198614041}
-  - component: {fileID: 198614040}
   - component: {fileID: 198614042}
   m_Layer: 0
   m_Name: GameManager
@@ -517,18 +516,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &198614040
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 198614039}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 082e08f1fe7431f4e93677908be523af, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!4 &198614041
 Transform:
   m_ObjectHideFlags: 0
@@ -1215,7 +1202,7 @@ PrefabInstance:
     - target: {fileID: 3440537033780651638, guid: 07a2129c1f8834c4b8503bc3abafde92, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 198614040}
+      objectReference: {fileID: 1852995890}
     - target: {fileID: 3440537033780651638, guid: 07a2129c1f8834c4b8503bc3abafde92, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: QuitGame
@@ -1332,7 +1319,7 @@ PrefabInstance:
     - target: {fileID: 3440537033780651638, guid: 07a2129c1f8834c4b8503bc3abafde92, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 198614040}
+      objectReference: {fileID: 1852995890}
     - target: {fileID: 3440537033780651638, guid: 07a2129c1f8834c4b8503bc3abafde92, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: PlayGame
@@ -1494,6 +1481,7 @@ GameObject:
   - component: {fileID: 1852995889}
   - component: {fileID: 1852995888}
   - component: {fileID: 1852995887}
+  - component: {fileID: 1852995890}
   m_Layer: 0
   m_Name: EventSystem
   m_TagString: Untagged
@@ -1551,6 +1539,18 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1852995890
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1852995886}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 082e08f1fe7431f4e93677908be523af, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
