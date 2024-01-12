@@ -10,6 +10,7 @@ public class GameLoop : MonoBehaviour
     private bool sacrificeSuccess = false;
     private bool passwordSuccess = false;
     private int ritualStepCompleted = 0;
+    public bool sacrificeDone = false;
     public bool hasChestKey { get; private set; } = false;
     public bool AscendStateReached { get; private set; } = false;
 
@@ -46,6 +47,11 @@ public class GameLoop : MonoBehaviour
     public void PickUpChestKey()
     {
         hasChestKey = true;
+    }
+
+    public void Sacrifice()
+    {
+        sacrificeDone = true;
     }
 
     public void AchieveBellInteraction(bool result)

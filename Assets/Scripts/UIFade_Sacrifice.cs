@@ -4,20 +4,20 @@ using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class UIFade : MonoBehaviour
+public class UIFade_Sacrifice : MonoBehaviour
 {
-
     [SerializeField]
     private Image touche;
     [SerializeField]
     private TMP_Text text;
 
 
-  
+
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.gameObject.name == "Player")
         {
+
             StartCoroutine(FadeImage(false));
         }
     }
