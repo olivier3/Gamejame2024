@@ -16,8 +16,12 @@ public class SceneLoader : MonoBehaviour
         if (collision.gameObject.CompareTag("Player"))
         {
             Debug.Log("Loading scene " + scene);
-            PlayerPrefs.SetFloat("X", respawn.transform.position.x);
-            PlayerPrefs.SetFloat("Y", respawn.transform.position.y);
+
+            if (respawn != null)
+            {
+                PlayerPrefs.SetFloat("X", respawn.transform.position.x);
+                PlayerPrefs.SetFloat("Y", respawn.transform.position.y);
+            }
             SceneManager.LoadScene(scene);
         }
     }
