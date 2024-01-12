@@ -674,7 +674,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 1}
   m_AnchorMax: {x: 0.5, y: 1}
-  m_AnchoredPosition: {x: -1.2762, y: -156}
+  m_AnchoredPosition: {x: -1.2762, y: -216}
   m_SizeDelta: {x: 299.706, y: 63.272}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &336858774
@@ -697,7 +697,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Le grand gourou a detecte \nl'imposture. \nFin de partie"
+  m_text: "Le grand gourou a detecte \nl'imposture. \n\nFin de partie"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: eca82157822285b4e8f8d27d0d4cc3d6, type: 2}
   m_sharedMaterial: {fileID: 4063566625230491828, guid: eca82157822285b4e8f8d27d0d4cc3d6, type: 2}
@@ -958,7 +958,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2427074384924289388, guid: 07a2129c1f8834c4b8503bc3abafde92, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -405
+      value: -581
       objectReference: {fileID: 0}
     - target: {fileID: 2427074384924289388, guid: 07a2129c1f8834c4b8503bc3abafde92, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -1075,7 +1075,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2427074384924289388, guid: 07a2129c1f8834c4b8503bc3abafde92, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -323
+      value: -499
       objectReference: {fileID: 0}
     - target: {fileID: 2427074384924289388, guid: 07a2129c1f8834c4b8503bc3abafde92, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
