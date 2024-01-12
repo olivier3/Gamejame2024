@@ -8,6 +8,7 @@ public class MainMenu : MonoBehaviour
     public void PlayGame()
     {
         PlayerPrefs.DeleteAll();
+        GameLoop.Instance.ResetAllState();
         SceneManager.LoadScene(1); 
     }
 

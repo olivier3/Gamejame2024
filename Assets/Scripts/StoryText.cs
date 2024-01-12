@@ -67,7 +67,7 @@ public class StoryText : MonoBehaviour
         {"FinPass", "Je n'ai qu'un enseignement, et vous avez ete capable de vous tromper ? Vous vous moquez de moi ?" },
         {"FinClef", "Avez vous votre artefact ? NON ? Vous aviez UN JOB !" },
 
-        {"BonneFin", "Vous etes definitivement un grand representant de notre ordre. Felicitation !" },
+        {"BonneFin", "Vous etes definitivement un grand representant de notre ordre. Felicitations !" },
 
         // Textes generiques
         {"NouvellePartie", "Vous etes une nouvelle recrue de la secte du Culte de l'Acier, a vous de trouver un moyen de vous elever." },

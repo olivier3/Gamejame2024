@@ -37,6 +37,7 @@ public class GameLoop : MonoBehaviour
 
     public void ResetAllState()
     {
+        Debug.Log("RESEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEET");
         BellSuccess = false;
         LampionSuccess = false;
         PriereSuccess = false;
@@ -45,6 +46,7 @@ public class GameLoop : MonoBehaviour
         ritualStepCompleted = 1;
         HasChestKey = false;
         AscendStateReached = false;
+        sacrificeDone = false;
     }
 
     public void PickUpChestKey()
